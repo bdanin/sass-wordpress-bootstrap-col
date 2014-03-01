@@ -1,0 +1,19 @@
+/*
+Theme Name: CoL Sass WordPress Bootstrap
+Theme URI: https://github.com/noahbass/sass-wordpress-bootstrap
+Description: Child theme to be customized to match GSU.EDU.
+Version: 1.0.0
+Author: Your Name
+Author URI: https://github.com/noahbass/sass-wordpress-bootstrap
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+Template:     sass-wordpress-bootstrap-master
+Version:      1.0.0
+Tags: black, white, one-column, two-columns, flexible-width, custom-background, custom-colors, custom-menu, full-width-template, theme-options
+License: GNU General Public License v2.0 & Apache License 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+@import url("../sass-wordpress-bootstrap-master/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
