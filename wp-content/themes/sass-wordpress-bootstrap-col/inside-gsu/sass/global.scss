@@ -1,7 +1,9 @@
 // customize bootstrap variables here:
 @import "variables";
-// @import "bootstrap";
+@import "bootstrap";
 
 // cutom partials:
 
 // custom global styles:
+.navbar-fixed-top { margin-top:35px; }
+.btn-navbar { background:gray; }
