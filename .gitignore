@@ -1,0 +1,6 @@
+# SASS caches
+*.sass-cache*
+
+# Mac Files
+*.DS_Store
+*.project
