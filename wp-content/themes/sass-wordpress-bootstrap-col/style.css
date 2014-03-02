@@ -15,5 +15,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html http://www.apache.org/lice
 
 @import url("../sass-wordpress-bootstrap-master/style.css");
 
-/* =Theme customization starts here
+/* = Import custom stylesheet gerenated with bootstrap-sass
+-------------------------------------------------------------- */
+@import url("global.css");
+
+/* = Theme overrides in plain CSS start here
 -------------------------------------------------------------- */
