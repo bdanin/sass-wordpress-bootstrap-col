@@ -7674,12 +7674,60 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 8, inside-gsu/sass/global.scss */
+/* line 2, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper {
+  background: #0038aa;
+  padding: 20px 0 20px;
+}
+/* line 3, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper h4, footer.footer-wrapper a {
+  color: #fefefe;
+}
+/* line 4, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper p {
+  color: #bfdcff;
+}
+/* line 5, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #socialicons {
+  height: 22px;
+  right: 20px;
+  bottom: 25px;
+}
+/* line 10, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #socialicons a {
+  display: block;
+  float: left;
+  margin-right: 12px;
+  width: 22px;
+  height: 22px;
+}
+/* line 17, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #fb {
+  background: url(http://law.gsu.edu/images/template/icon_facebook_22.png);
+}
+/* line 18, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #twitter {
+  background: url(http://law.gsu.edu/images/template/icon_twitter_22.png);
+}
+/* line 19, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #linkedin {
+  background: url(http://law.gsu.edu/images/template/icon_linkedin_22.png);
+}
+/* line 20, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #itunes {
+  background: url(http://law.gsu.edu/images/template/icon_apple_22.png);
+}
+/* line 21, inside-gsu/sass/_footer.scss */
+footer.footer-wrapper #rss {
+  background: url(http://law.gsu.edu/images/template/icon_rss_22.png);
+}
+
+/* line 2, inside-gsu/sass/_header.scss */
 .navbar-fixed-top {
   margin-top: 35px;
 }
 
-/* line 9, inside-gsu/sass/global.scss */
+/* line 3, inside-gsu/sass/_header.scss */
 .btn-navbar {
   background: gray;
 }

@@ -1,0 +1,22 @@
+// footer styles
+footer.footer-wrapper {	background:$blue-main; padding: 20px 0 20px; 
+	h4, a { color:$white; }
+	p { color:$blue-light; }
+	#socialicons{
+    height: 22px;
+    right: 20px;
+    bottom: 25px;
+	}
+	#socialicons a{
+	    display: block;
+	    float: left;
+	    margin-right: 12px;
+	    width: 22px;
+	    height: 22px;
+	}
+	#fb{background: url(http://law.gsu.edu/images/template/icon_facebook_22.png);}
+	#twitter{background: url(http://law.gsu.edu/images/template/icon_twitter_22.png);}
+	#linkedin{background: url(http://law.gsu.edu/images/template/icon_linkedin_22.png);}
+	#itunes{background: url(http://law.gsu.edu/images/template/icon_apple_22.png);}
+	#rss{background: url(http://law.gsu.edu/images/template/icon_rss_22.png);}
+}
