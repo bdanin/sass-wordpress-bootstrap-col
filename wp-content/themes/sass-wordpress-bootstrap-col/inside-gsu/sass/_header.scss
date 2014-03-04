@@ -1,3 +1,5 @@
 // header partial
-.navbar-fixed-top { margin-top:35px; }
-.btn-navbar { background:gray; }
+header.main-header { background:$blue-mid; height:140px;
+	.navbar-fixed-top { margin-top:35px; }
+	.btn-navbar { background:gray; }
+}

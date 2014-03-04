@@ -1,6 +1,7 @@
 // customize bootstrap variables here:
 @import "variables";
 @import "bootstrap";
+@import "compass/css3";
 
 // cutom partials:
 @import "colors.scss";
@@ -8,5 +9,6 @@
 @import "footer.scss";
 @import "header.scss";
 @import "mixins.scss";
+@import "nav.scss";
 
 // custom global styles:

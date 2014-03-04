@@ -7727,11 +7727,38 @@ footer.footer-wrapper #rss {
 }
 
 /* line 2, inside-gsu/sass/_header.scss */
-.navbar-fixed-top {
+header.main-header {
+  background: #3867b7;
+  height: 140px;
+}
+/* line 3, inside-gsu/sass/_header.scss */
+header.main-header .navbar-fixed-top {
   margin-top: 35px;
 }
-
-/* line 3, inside-gsu/sass/_header.scss */
-.btn-navbar {
+/* line 4, inside-gsu/sass/_header.scss */
+header.main-header .btn-navbar {
   background: gray;
+}
+
+/* line 3, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li {
+  float: left;
+}
+/* line 4, inside-gsu/sass/_nav.scss */
+nav.main-nav a.brand {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background: url('inside-gsu/img/logo_gsulaw.png?1380911706');
+  background-repeat: no-repeat;
+  background-position: 20px 0;
+  padding: 66px 151px;
+  position: relative;
+  top: 52px;
+}
+/* line 5, inside-gsu/sass/_nav.scss */
+nav.main-nav .navigation-main-nav {
+  margin-left: 350px;
 }

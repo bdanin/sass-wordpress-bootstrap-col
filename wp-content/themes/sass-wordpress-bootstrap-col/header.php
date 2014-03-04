@@ -39,8 +39,8 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-		<header>
-			<nav role="navigation">
+		<header class="main-header">
+			<nav role="navigation" class="main-nav">
 				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
 					<?php if(of_get_option('branding_logo','')!='') { ?>
 						<img src="<?php echo of_get_option('branding_logo'); ?>" alt="<?php echo get_bloginfo('description'); ?>">
@@ -53,7 +53,7 @@
 			        <span class="icon-bar"></span>
 				</a> -->
 				
-				<div class="nav-collapse">
+				<div class="nav-collapse navigation-main-nav">
 					<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 				</div>
 
@@ -66,4 +66,4 @@
 			</nav>
 		</header>
 		
-		<div class="container-fluid">
+		<div class="container-fluid main-body-content">

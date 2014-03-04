@@ -1,0 +1,6 @@
+// navigation styles
+nav.main-nav {
+	.nav > li { float:left; }
+	a.brand { @include hide-text; @include background(image-url('logo_gsulaw.png')); background-repeat:no-repeat; background-position:20px 0; padding:66px 151px; position:relative; top:52px; }
+	.navigation-main-nav { margin-left:350px; }
+}
