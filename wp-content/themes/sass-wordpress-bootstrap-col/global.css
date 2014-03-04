@@ -7674,6 +7674,31 @@ td.visible-print {
     display: none !important;
   }
 }
+/* line 2, inside-gsu/sass/_header.scss */
+header.main-header {
+  background: #3867b7;
+  height: 140px;
+  position: relative;
+}
+/* line 3, inside-gsu/sass/_header.scss */
+header.main-header .navbar-fixed-top {
+  margin-top: 35px;
+}
+/* line 4, inside-gsu/sass/_header.scss */
+header.main-header .btn-navbar {
+  background: gray;
+}
+
+/* line 3, inside-gsu/sass/_body.scss */
+.main-body-content #content {
+  padding: 2.5%;
+}
+
+/* line 3, inside-gsu/sass/_body.scss */
+.main-body-content #content {
+  padding: 2.5%;
+}
+
 /* line 2, inside-gsu/sass/_footer.scss */
 footer.footer-wrapper {
   background: #0038aa;
@@ -7726,25 +7751,15 @@ footer.footer-wrapper #rss {
   background: url(http://law.gsu.edu/images/template/icon_rss_22.png);
 }
 
-/* line 2, inside-gsu/sass/_header.scss */
-header.main-header {
-  background: #3867b7;
-  height: 140px;
-}
-/* line 3, inside-gsu/sass/_header.scss */
-header.main-header .navbar-fixed-top {
-  margin-top: 35px;
-}
-/* line 4, inside-gsu/sass/_header.scss */
-header.main-header .btn-navbar {
-  background: gray;
-}
-
 /* line 3, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li {
   float: left;
 }
 /* line 4, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li > a:hover, nav.main-nav .nav > li > a:active, nav.main-nav .nav > li > a:focus, nav.main-nav .nav > li > a:visited {
+  background: #26467c;
+}
+/* line 6, inside-gsu/sass/_nav.scss */
 nav.main-nav a.brand {
   font: 0/0 a;
   color: transparent;
@@ -7758,7 +7773,29 @@ nav.main-nav a.brand {
   position: relative;
   top: 52px;
 }
-/* line 5, inside-gsu/sass/_nav.scss */
+/* line 7, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav {
   margin-left: 350px;
+  position: absolute;
+  bottom: 0;
+}
+/* line 8, inside-gsu/sass/_nav.scss */
+nav.main-nav .navigation-main-nav a {
+  color: #fefefe;
+}
+/* line 10, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu {
+  background: #363636;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 11, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a {
+  padding: 15px;
+}
+/* line 12, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, nav.main-nav ul.dropdown-menu a:focus, nav.main-nav ul.dropdown-menu a:visited {
+  background: #101010;
 }

@@ -4,8 +4,14 @@
 $white:#fefefe;
 $black:#010101;
 $grey:#323232;
+$grey-nav:#363636;
+$grey-nav-hover:darken($grey-nav, 15%);
 
 // blues
 $blue-light:#bfdcff;
 $blue-main:#0038aa;
 $blue-mid:#3867b7;
+$blue-mid-hover:darken($blue-mid, 15%);
+
+// reds
+$red-accent:#cc0000;
