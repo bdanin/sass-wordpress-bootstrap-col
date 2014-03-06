@@ -7689,14 +7689,28 @@ header.main-header .btn-navbar {
   background: gray;
 }
 
-/* line 3, inside-gsu/sass/_body.scss */
-.main-body-content #content {
-  padding: 2.5%;
+/* line 2, inside-gsu/sass/_body.scss */
+body {
+  background: #3967b7;
 }
 
 /* line 3, inside-gsu/sass/_body.scss */
-.main-body-content #content {
-  padding: 2.5%;
+.main-body-content {
+  background: #fefefe;
+  margin: auto;
+  max-width: 960px;
+}
+
+/* line 2, inside-gsu/sass/_body.scss */
+body {
+  background: #3967b7;
+}
+
+/* line 3, inside-gsu/sass/_body.scss */
+.main-body-content {
+  background: #fefefe;
+  margin: auto;
+  max-width: 960px;
 }
 
 /* line 2, inside-gsu/sass/_footer.scss */
