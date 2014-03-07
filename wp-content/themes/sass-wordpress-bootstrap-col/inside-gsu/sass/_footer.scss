@@ -2,7 +2,7 @@
 footer.footer-wrapper {	background:$blue-main; padding: 20px; position:relative;
 	h4, a { color:$white; }
 	p { color:$blue-light; }
-	#socialicons { clear:both; float:right; 
+	#socialicons { clear:both; float:right; margin-top:-2em;
 		a { display:block; float:left; height:22px; margin-right:12px; width:22px; }
 	}
 	#footcopy { float:left; }

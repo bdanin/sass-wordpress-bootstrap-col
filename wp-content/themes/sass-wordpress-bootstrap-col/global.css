@@ -7695,10 +7695,17 @@ body {
 }
 
 /* line 3, inside-gsu/sass/_body.scss */
-.main-body-content {
+.main-wrapper, .hero-unit {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
+  padding: 0.5em 1.5em;
+}
+
+/* line 4, inside-gsu/sass/_body.scss */
+.header-wrap, .footer-wrap-inner {
+  margin: auto;
+  width: 960px;
 }
 
 /* line 2, inside-gsu/sass/_body.scss */
@@ -7707,10 +7714,17 @@ body {
 }
 
 /* line 3, inside-gsu/sass/_body.scss */
-.main-body-content {
+.main-wrapper, .hero-unit {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
+  padding: 0.5em 1.5em;
+}
+
+/* line 4, inside-gsu/sass/_body.scss */
+.header-wrap, .footer-wrap-inner {
+  margin: auto;
+  width: 960px;
 }
 
 /* line 2, inside-gsu/sass/_footer.scss */
@@ -7731,6 +7745,7 @@ footer.footer-wrapper p {
 footer.footer-wrapper #socialicons {
   clear: both;
   float: right;
+  margin-top: -2em;
 }
 /* line 6, inside-gsu/sass/_footer.scss */
 footer.footer-wrapper #socialicons a {

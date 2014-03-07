@@ -40,30 +40,32 @@
 	
 	<body <?php body_class(); ?>>
 		<header class="main-header">
-			<nav role="navigation" class="main-nav">
-				<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
-					<?php if(of_get_option('branding_logo','')!='') { ?>
-						<img src="<?php echo of_get_option('branding_logo'); ?>" alt="<?php echo get_bloginfo('description'); ?>">
-						<?php }
-						if(of_get_option('site_name','1')) bloginfo('name'); ?></a>
-				
-				<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-				</a> -->
-				
-				<div class="nav-collapse navigation-main-nav">
-					<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
-				</div>
+			<div class="header-wrap">
+				<nav role="navigation" class="main-nav">
+					<a class="brand" id="logo" title="<?php echo get_bloginfo('description'); ?>" href="<?php echo home_url(); ?>">
+						<?php if(of_get_option('branding_logo','')!='') { ?>
+							<img src="<?php echo of_get_option('branding_logo'); ?>" alt="<?php echo get_bloginfo('description'); ?>">
+							<?php }
+							if(of_get_option('site_name','1')) bloginfo('name'); ?></a>
+					
+					<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+					</a> -->
+					
+					<div class="nav-collapse navigation-main-nav">
+						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
+					</div>
 
-				<?php if(of_get_option('search_bar', '1')) {?>
-				<form class="navbar-search pull-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-					<input name="s" id="s" type="text" class="search-query" autocomplete="off" placeholder="<?php _e('Search','bonestheme'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
-				</form>
-				<?php } ?>
-				
-			</nav>
+					<?php if(of_get_option('search_bar', '1')) {?>
+					<form class="navbar-search pull-right" role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+						<input name="s" id="s" type="text" class="search-query" autocomplete="off" placeholder="<?php _e('Search','bonestheme'); ?>" data-provide="typeahead" data-items="4" data-source='<?php echo $typeahead_data; ?>'>
+					</form>
+					<?php } ?>
+					
+				</nav>
+			</div>
 		</header>
 		
 		<div class="container-fluid main-body-content">
