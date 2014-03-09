@@ -11,9 +11,8 @@ $grey-nav-hover:darken($grey-nav, 15%);
 $blue-light:#bfdcff;
 $blue-main:#0038aa;
 $blue-dark-alt:#0039a6;
-$blue-mid:#3867b7;
 $blue-body-wrap:#3967b7;
-$blue-mid-hover:darken($blue-mid, 15%);
+$blue-mid-hover:darken($blue-body-wrap, 15%);
 
 // reds
 $red-accent:#cc0000;
