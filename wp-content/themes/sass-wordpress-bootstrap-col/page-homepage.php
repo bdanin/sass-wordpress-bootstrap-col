@@ -80,8 +80,6 @@ Template Name: Homepage
 							?>
 						
 							<div class="hero-unit" style="background-image: url('<?php echo $featured_src[0]; ?>'); background-repeat: no-repeat; background-position: 0 0;">
-
-								<h1><?php the_title(); ?></h1>
 								
 								<?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
 							
