@@ -2,6 +2,8 @@
 			
 			<div id="content" class="clearfix row-fluid">
 			
+				<?php get_sidebar(); // sidebar 1 ?>
+				
 				<div id="main" class="span8 clearfix" role="main">
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -47,8 +49,6 @@
 					<?php endif; ?>
 			
 				</div> <!-- end #main -->
-    
-				<?php get_sidebar(); // sidebar 1 ?>
     
 			</div> <!-- end #content -->
 
