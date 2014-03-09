@@ -89,7 +89,7 @@ Template Name: Homepage
 
 						</header>
 						
-						<section class="row-fluid post_content">
+						<section class="row-fluid post_content main-body-wrap">
 						
 							<div class="span8">
 						
@@ -100,12 +100,6 @@ Template Name: Homepage
 							<?php get_sidebar('sidebar2'); // sidebar 2 ?>
 													
 						</section> <!-- end article header -->
-						
-						<footer>
-			
-							<p class="clearfix"><?php the_tags('<span class="tags">' . __("Tags","bonestheme") . ': ', ', ', '</span>'); ?></p>
-							
-						</footer> <!-- end article footer -->
 					
 					</article> <!-- end article -->
 					
