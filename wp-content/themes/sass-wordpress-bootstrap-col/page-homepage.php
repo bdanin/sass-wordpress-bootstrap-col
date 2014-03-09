@@ -79,8 +79,8 @@ Template Name: Homepage
 								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
 							?>
 						
-							<div class="hero-unit" style="background-image: url('<?php echo $featured_src[0]; ?>'); background-repeat: no-repeat; background-position: 0 0;">
-								
+							<div class="hero-unit">
+								<img src="<?php echo $featured_src[0]; ?>" />
 								<?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
 							
 							</div>

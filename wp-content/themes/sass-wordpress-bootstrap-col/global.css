@@ -7699,6 +7699,7 @@ body {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
+  min-height: 355px;
   padding: 0.5em 1.5em;
 }
 
@@ -7718,6 +7719,7 @@ body {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
+  min-height: 355px;
   padding: 0.5em 1.5em;
 }
 
@@ -7827,4 +7829,16 @@ nav.main-nav ul.dropdown-menu a {
 /* line 12, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, nav.main-nav ul.dropdown-menu a:focus, nav.main-nav ul.dropdown-menu a:visited {
   background: #101010;
+}
+
+/* line 3, inside-gsu/sass/_home.scss */
+.page-template-page-homepage-php .hero-unit {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 100%;
+}
+/* line 4, inside-gsu/sass/_home.scss */
+.page-template-page-homepage-php .hero-unit img {
+  width: 100%;
 }
