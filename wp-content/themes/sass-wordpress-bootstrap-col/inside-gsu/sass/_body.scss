@@ -1,4 +1,5 @@
 // main body area
-body { background:$blue-body-wrap; }
+body { background:$blue-body-wrap; padding-top:0; }
 .main-wrapper, .hero-unit, .main-body-wrap { background:$white; margin:auto; max-width:$dsk-width; min-height:$dsk-height; padding:0.5em 1.5em; }
 .header-wrap, .footer-wrap-inner { margin:auto; width:$dsk-width; }
+.container-fluid { max-width:100%; padding-left:0; padding-right:0; }

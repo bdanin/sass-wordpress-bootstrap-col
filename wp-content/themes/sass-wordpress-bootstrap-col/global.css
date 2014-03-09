@@ -7692,6 +7692,7 @@ header.main-header .btn-navbar {
 /* line 2, inside-gsu/sass/_body.scss */
 body {
   background: #3967b7;
+  padding-top: 0;
 }
 
 /* line 3, inside-gsu/sass/_body.scss */
@@ -7707,11 +7708,19 @@ body {
 .header-wrap, .footer-wrap-inner {
   margin: auto;
   width: 960px;
+}
+
+/* line 5, inside-gsu/sass/_body.scss */
+.container-fluid {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* line 2, inside-gsu/sass/_body.scss */
 body {
   background: #3967b7;
+  padding-top: 0;
 }
 
 /* line 3, inside-gsu/sass/_body.scss */
@@ -7727,6 +7736,13 @@ body {
 .header-wrap, .footer-wrap-inner {
   margin: auto;
   width: 960px;
+}
+
+/* line 5, inside-gsu/sass/_body.scss */
+.container-fluid {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* line 2, inside-gsu/sass/_footer.scss */
