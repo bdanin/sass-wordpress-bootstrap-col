@@ -1,5 +1,7 @@
 			<footer role="contentinfo" class="footer-wrapper clearfix">
-				<div class="footer-wrap-inner">
+				
+				<div class="footer-wrap-inner clearfix">
+					
 					<div id="inner-footer" class="clearfix">
 			          <div id="widget-footer" class="clearfix row-fluid">
 			            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
@@ -40,7 +42,7 @@
 	        </div>
 
 				</div>
-				
+
 			</footer> <!-- end footer -->
 		
 		</div> <!-- end #container -->

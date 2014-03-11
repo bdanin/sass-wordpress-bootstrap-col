@@ -7707,7 +7707,7 @@ body {
 /* line 4, inside-gsu/sass/_body.scss */
 .header-wrap, .footer-wrap-inner {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 /* line 5, inside-gsu/sass/_body.scss */
@@ -7735,7 +7735,7 @@ body {
 /* line 4, inside-gsu/sass/_body.scss */
 .header-wrap, .footer-wrap-inner {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 /* line 5, inside-gsu/sass/_body.scss */
@@ -7857,4 +7857,16 @@ nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, n
 /* line 4, inside-gsu/sass/_home.scss */
 .page-template-page-homepage-php .hero-unit img {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 6, inside-gsu/sass/_responsive768.scss */
+  body {
+    padding: 0;
+  }
+
+  /* line 8, inside-gsu/sass/_responsive768.scss */
+  footer.footer-wrapper #socialicons {
+    margin: 0;
+  }
 }
