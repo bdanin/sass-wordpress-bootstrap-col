@@ -7674,6 +7674,11 @@ td.visible-print {
     display: none !important;
   }
 }
+/* line 2, inside-gsu/sass/_fonts.scss */
+p, a, li {
+  font-size: 1.1em;
+}
+
 /* line 2, inside-gsu/sass/_header.scss */
 header.main-header {
   background: #3967b7;
@@ -7845,6 +7850,45 @@ nav.main-nav ul.dropdown-menu a {
 /* line 12, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, nav.main-nav ul.dropdown-menu a:focus, nav.main-nav ul.dropdown-menu a:visited {
   background: #101010;
+}
+
+/* line 19, inside-gsu/sass/_nav.scss */
+#sidebar1 ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 20, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li {
+  clear: both;
+}
+/* line 21, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li a {
+  background: #d0e5f6;
+  color: #315aad;
+  float: left;
+  line-height: 1.65em;
+  margin: 1px 0;
+  padding: 5px 0 5px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+/* line 22, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li a:hover {
+  background: #b1d2ef;
+}
+/* line 24, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li ul li a {
+  padding-left: 15%;
+}
+/* line 28, inside-gsu/sass/_nav.scss */
+#sidebar1 .current-menu-item > a {
+  color: #fefefe;
+  text-transform: uppercase;
+  background-color: #555555;
+}
+/* line 29, inside-gsu/sass/_nav.scss */
+#sidebar1 .current-menu-item > a:hover {
+  background-color: #2f2f2f;
 }
 
 /* line 3, inside-gsu/sass/_home.scss */

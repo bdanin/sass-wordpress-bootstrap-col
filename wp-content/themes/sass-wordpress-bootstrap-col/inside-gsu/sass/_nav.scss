@@ -13,3 +13,20 @@ nav.main-nav {
 		}
 	}
 }
+
+// left-side nav
+#sidebar1 {
+	ul { list-style:none; margin:0;
+		li { clear:both;
+			a { background:$blue-lighter; color:$blue-nav; float:left; line-height:$nav-line-height; margin:1px 0; padding:5px 0 5px 10px; text-decoration:none; width:100%;
+				&:hover { background:$blue-lighter-hover; }
+			}
+			ul li a { padding-left:15%; }
+		}
+	}
+	.current-menu-item {
+		> a { color:$white; text-transform:uppercase; background-color:$grey-nav-active; 
+			&:hover { background-color:darken($grey-nav-active, 15%); }
+		}
+	}
+}
