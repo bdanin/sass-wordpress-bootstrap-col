@@ -7675,8 +7675,44 @@ td.visible-print {
   }
 }
 /* line 2, inside-gsu/sass/_fonts.scss */
+h1 {
+  font-size: 2.42em;
+  margin-top: 0;
+}
+
+/* line 3, inside-gsu/sass/_fonts.scss */
+h2 {
+  font-size: 1.98em;
+}
+
+/* line 4, inside-gsu/sass/_fonts.scss */
+h3 {
+  font-size: 1.76em;
+}
+
+/* line 5, inside-gsu/sass/_fonts.scss */
+h4 {
+  font-size: 1.54em;
+}
+
+/* line 6, inside-gsu/sass/_fonts.scss */
+h5 {
+  font-size: 1.21em;
+}
+
+/* line 7, inside-gsu/sass/_fonts.scss */
 p, a, li {
   font-size: 1.1em;
+}
+
+/* line 8, inside-gsu/sass/_fonts.scss */
+a, .page-title {
+  color: #103e94;
+}
+
+/* line 9, inside-gsu/sass/_fonts.scss */
+.page-title {
+  font-weight: bold;
 }
 
 /* line 2, inside-gsu/sass/_header.scss */
@@ -7722,6 +7758,13 @@ body {
   padding-right: 0;
 }
 
+/* line 6, inside-gsu/sass/_body.scss */
+.page-header {
+  border: none;
+  margin: 0;
+  padding-top: 1em;
+}
+
 /* line 2, inside-gsu/sass/_body.scss */
 body {
   background: #3967b7;
@@ -7748,6 +7791,13 @@ body {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+}
+
+/* line 6, inside-gsu/sass/_body.scss */
+.page-header {
+  border: none;
+  margin: 0;
+  padding-top: 1em;
 }
 
 /* line 2, inside-gsu/sass/_footer.scss */
@@ -7852,10 +7902,15 @@ nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, n
   background: #101010;
 }
 
+/* line 18, inside-gsu/sass/_nav.scss */
+#sidebar1 {
+  padding: 1em 0;
+}
 /* line 19, inside-gsu/sass/_nav.scss */
 #sidebar1 ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 /* line 20, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li {

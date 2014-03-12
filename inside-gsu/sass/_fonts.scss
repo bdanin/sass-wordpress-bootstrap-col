@@ -1,2 +1,9 @@
 // font styles
+h1 { font-size:$base-font-size*2.2; margin-top:0; }
+h2 { font-size:$base-font-size*1.8; }
+h3 { font-size:$base-font-size*1.6; }
+h4 { font-size:$base-font-size*1.4; }
+h5 { font-size:$base-font-size*1.1; }
 p, a, li { font-size:$base-font-size; }
+a, .page-title { color:$blue-link; }
+.page-title { font-weight:bold; }

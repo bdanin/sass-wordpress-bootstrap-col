@@ -89,13 +89,12 @@ Template Name: Homepage
 						
 						<section class="row-fluid post_content main-body-wrap">
 						
-							<div class="span8">
+							<div class="span12">
 						
 								<?php the_content(); ?>
 								
 							</div>
 							
-							<?php get_sidebar('sidebar2'); // sidebar 2 ?>
 													
 						</section> <!-- end article header -->
 					
