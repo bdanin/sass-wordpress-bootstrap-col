@@ -1,3 +1,4 @@
+/* bootstrap overrides */
 // Override Bootstrap variables here (defaults copied from bootstrap-sass version 3.0.3.0):
 // bootstrap specific variable. set to false if not using ruby + asset pipeline / compass.
 
@@ -9,6 +10,15 @@
   text-decoration: none;
   color: $white;
   background-color: transparent;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 0;
+  clear: both;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  white-space: nowrap;
 }
 
 //$bootstrap-sass-asset-helper: true;

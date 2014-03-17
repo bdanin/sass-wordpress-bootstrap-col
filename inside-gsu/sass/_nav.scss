@@ -1,6 +1,6 @@
 // navigation styles
 nav.main-nav {
-	.nav > li { @include border-radius(4px); 
+	.nav > li {  
 		float:left;
 		&:hover, &:active, &:focus, &:visited { 
 				@include box-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
@@ -15,8 +15,9 @@ nav.main-nav {
 	.navigation-main-nav { margin-left:350px; position:absolute; bottom:0;
 		a { color:$white; }
 	}
-	ul.dropdown-menu { background:$grey-nav; border:none; border-radius:0; margin:0; padding:0;
-		a { padding:15px;
+	ul.dropdown-menu { @include border-radius(4px);
+		background:$grey-nav; border:none; border-radius:0; margin:0; padding:20px;
+		a { line-height:18px; margin:0 0 24px;
 			&:hover { border-bottom:2px solid $red-accent; } 
 		}
 	}

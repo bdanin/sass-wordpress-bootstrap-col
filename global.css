@@ -7870,11 +7870,6 @@ footer.footer-wrapper #rss {
 
 /* line 3, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
   float: left;
 }
 /* line 5, inside-gsu/sass/_nav.scss */
@@ -7925,36 +7920,42 @@ nav.main-nav .navigation-main-nav a {
 }
 /* line 18, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
   background: #363636;
   border: none;
   border-radius: 0;
   margin: 0;
-  padding: 0;
-}
-/* line 19, inside-gsu/sass/_nav.scss */
-nav.main-nav ul.dropdown-menu a {
-  padding: 15px;
+  padding: 20px;
 }
 /* line 20, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a {
+  line-height: 18px;
+  margin: 0 0 24px;
+}
+/* line 21, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a:hover {
   border-bottom: 2px solid #cc0000;
 }
 
-/* line 26, inside-gsu/sass/_nav.scss */
+/* line 27, inside-gsu/sass/_nav.scss */
 #sidebar1 {
   padding: 1em 0;
 }
-/* line 27, inside-gsu/sass/_nav.scss */
+/* line 28, inside-gsu/sass/_nav.scss */
 #sidebar1 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 28, inside-gsu/sass/_nav.scss */
+/* line 29, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li {
   clear: both;
 }
-/* line 29, inside-gsu/sass/_nav.scss */
+/* line 30, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a {
   background: #d0e5f6;
   color: #315aad;
@@ -7965,21 +7966,21 @@ nav.main-nav ul.dropdown-menu a:hover {
   text-decoration: none;
   width: 100%;
 }
-/* line 30, inside-gsu/sass/_nav.scss */
+/* line 31, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a:hover {
   background: #b1d2ef;
 }
-/* line 32, inside-gsu/sass/_nav.scss */
+/* line 33, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li ul li a {
   padding-left: 15%;
 }
-/* line 36, inside-gsu/sass/_nav.scss */
+/* line 37, inside-gsu/sass/_nav.scss */
 #sidebar1 .current-menu-item > a {
   color: #fefefe;
   text-transform: uppercase;
   background-color: #555555;
 }
-/* line 37, inside-gsu/sass/_nav.scss */
+/* line 38, inside-gsu/sass/_nav.scss */
 #sidebar1 .current-menu-item > a:hover {
   background-color: #2f2f2f;
 }
@@ -7996,17 +7997,50 @@ nav.main-nav ul.dropdown-menu a:hover {
   width: 100%;
 }
 
-/* line 4, inside-gsu/sass/_variables.scss */
+/* wp top gray menu overrides */
+/* line 2, inside-gsu/sass/_wp-nav.scss */
+body.admin-bar {
+  margin-top: 12px;
+}
+
+/* line 5, inside-gsu/sass/_wp-nav.scss */
+#wpadminbar {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #313131), color-stop(100%, #1f2026));
+  background-image: -webkit-linear-gradient(#313131, #1f2026);
+  background-image: -moz-linear-gradient(#313131, #1f2026);
+  background-image: -o-linear-gradient(#313131, #1f2026);
+  background-image: linear-gradient(#313131, #1f2026);
+  height: 44px;
+}
+/* line 8, inside-gsu/sass/_wp-nav.scss */
+#wpadminbar .quicklinks {
+  margin: 5px auto 0;
+  width: 940px;
+}
+
+/* bootstrap overrides */
+/* line 5, inside-gsu/sass/_variables.scss */
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   background-color: #cc0000;
 }
 
-/* line 8, inside-gsu/sass/_variables.scss */
+/* line 9, inside-gsu/sass/_variables.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #fefefe;
   background-color: transparent;
+}
+
+/* line 14, inside-gsu/sass/_variables.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 0;
+  clear: both;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {
