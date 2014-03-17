@@ -1,4 +1,6 @@
 // font styles
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
+body { font-family:'Lato', sans-serif !important; }
 h1 { font-size:$base-font-size*2.2; margin-top:0; }
 h2 { font-size:$base-font-size*1.8; }
 h3 { font-size:$base-font-size*1.6; }

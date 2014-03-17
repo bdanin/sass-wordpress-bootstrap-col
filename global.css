@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 /* line 22, ../../../../../.rvm/gems/ruby-2.1.0@bs3x/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 article,
@@ -7674,51 +7675,55 @@ td.visible-print {
     display: none !important;
   }
 }
-/* line 2, inside-gsu/sass/_fonts.scss */
+/* line 3, inside-gsu/sass/_fonts.scss */
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+
+/* line 4, inside-gsu/sass/_fonts.scss */
 h1 {
   font-size: 2.42em;
   margin-top: 0;
 }
 
-/* line 3, inside-gsu/sass/_fonts.scss */
+/* line 5, inside-gsu/sass/_fonts.scss */
 h2 {
   font-size: 1.98em;
 }
 
-/* line 4, inside-gsu/sass/_fonts.scss */
+/* line 6, inside-gsu/sass/_fonts.scss */
 h3 {
   font-size: 1.76em;
 }
 
-/* line 5, inside-gsu/sass/_fonts.scss */
+/* line 7, inside-gsu/sass/_fonts.scss */
 h4 {
   font-size: 1.54em;
 }
 
-/* line 6, inside-gsu/sass/_fonts.scss */
+/* line 8, inside-gsu/sass/_fonts.scss */
 h5 {
   font-size: 1.21em;
 }
 
-/* line 7, inside-gsu/sass/_fonts.scss */
+/* line 9, inside-gsu/sass/_fonts.scss */
 p, a, li {
   font-size: 1.1em;
 }
 
-/* line 8, inside-gsu/sass/_fonts.scss */
+/* line 10, inside-gsu/sass/_fonts.scss */
 a, .page-title {
   color: #103e94;
 }
 
-/* line 9, inside-gsu/sass/_fonts.scss */
+/* line 11, inside-gsu/sass/_fonts.scss */
 .page-title {
   font-weight: bold;
 }
 
 /* line 2, inside-gsu/sass/_header.scss */
 header.main-header {
-  background: #3967b7;
-  height: 140px;
+  height: 100px;
   position: relative;
 }
 /* line 3, inside-gsu/sass/_header.scss */
@@ -7732,11 +7737,16 @@ header.main-header .btn-navbar {
 
 /* line 2, inside-gsu/sass/_body.scss */
 body {
-  background: #3967b7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #315aad), color-stop(100%, #447ac5));
+  background-image: -webkit-linear-gradient(#315aad, #447ac5);
+  background-image: -moz-linear-gradient(#315aad, #447ac5);
+  background-image: -o-linear-gradient(#315aad, #447ac5);
+  background-image: linear-gradient(#315aad, #447ac5);
+  font-family: 'Lato', sans-serif;
   padding-top: 0;
 }
 
-/* line 3, inside-gsu/sass/_body.scss */
+/* line 6, inside-gsu/sass/_body.scss */
 .main-wrapper, .hero-unit, .main-body-wrap {
   background: #fefefe;
   margin: auto;
@@ -7745,20 +7755,20 @@ body {
   padding: 0.5em 1.5em;
 }
 
-/* line 4, inside-gsu/sass/_body.scss */
+/* line 7, inside-gsu/sass/_body.scss */
 .header-wrap, .footer-wrap-inner {
   margin: auto;
   max-width: 960px;
 }
 
-/* line 5, inside-gsu/sass/_body.scss */
+/* line 8, inside-gsu/sass/_body.scss */
 .container-fluid {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 6, inside-gsu/sass/_body.scss */
+/* line 9, inside-gsu/sass/_body.scss */
 .page-header {
   border: none;
   margin: 0;
@@ -7767,11 +7777,16 @@ body {
 
 /* line 2, inside-gsu/sass/_body.scss */
 body {
-  background: #3967b7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #315aad), color-stop(100%, #447ac5));
+  background-image: -webkit-linear-gradient(#315aad, #447ac5);
+  background-image: -moz-linear-gradient(#315aad, #447ac5);
+  background-image: -o-linear-gradient(#315aad, #447ac5);
+  background-image: linear-gradient(#315aad, #447ac5);
+  font-family: 'Lato', sans-serif;
   padding-top: 0;
 }
 
-/* line 3, inside-gsu/sass/_body.scss */
+/* line 6, inside-gsu/sass/_body.scss */
 .main-wrapper, .hero-unit, .main-body-wrap {
   background: #fefefe;
   margin: auto;
@@ -7780,20 +7795,20 @@ body {
   padding: 0.5em 1.5em;
 }
 
-/* line 4, inside-gsu/sass/_body.scss */
+/* line 7, inside-gsu/sass/_body.scss */
 .header-wrap, .footer-wrap-inner {
   margin: auto;
   max-width: 960px;
 }
 
-/* line 5, inside-gsu/sass/_body.scss */
+/* line 8, inside-gsu/sass/_body.scss */
 .container-fluid {
   max-width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
 
-/* line 6, inside-gsu/sass/_body.scss */
+/* line 9, inside-gsu/sass/_body.scss */
 .page-header {
   border: none;
   margin: 0;
@@ -7855,13 +7870,35 @@ footer.footer-wrapper #rss {
 
 /* line 3, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
   float: left;
 }
-/* line 4, inside-gsu/sass/_nav.scss */
-nav.main-nav .nav > li > a:hover, nav.main-nav .nav > li > a:active, nav.main-nav .nav > li > a:focus, nav.main-nav .nav > li > a:visited {
-  background: #27467d;
+/* line 5, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li:hover, nav.main-nav .nav > li:active, nav.main-nav .nav > li:focus, nav.main-nav .nav > li:visited {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  background: #cc0000;
 }
-/* line 6, inside-gsu/sass/_nav.scss */
+/* line 9, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li ul {
+  border-top: 5px solid #cc0000;
+  margin-top: -5px;
+}
+/* line 10, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li:hover > .dropdown-menu {
+  display: block !important;
+}
+/* line 11, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li > a {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 14, inside-gsu/sass/_nav.scss */
 nav.main-nav a.brand {
   font: 0/0 a;
   color: transparent;
@@ -7871,21 +7908,22 @@ nav.main-nav a.brand {
   background: url('inside-gsu/img/logo_gsulaw.png?1380911706');
   background-repeat: no-repeat;
   background-position: 20px 0;
+  background-size: 250px;
   padding: 66px 151px;
   position: relative;
   top: 52px;
 }
-/* line 7, inside-gsu/sass/_nav.scss */
+/* line 15, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav {
   margin-left: 350px;
   position: absolute;
   bottom: 0;
 }
-/* line 8, inside-gsu/sass/_nav.scss */
+/* line 16, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav a {
   color: #fefefe;
 }
-/* line 10, inside-gsu/sass/_nav.scss */
+/* line 18, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu {
   background: #363636;
   border: none;
@@ -7893,30 +7931,30 @@ nav.main-nav ul.dropdown-menu {
   margin: 0;
   padding: 0;
 }
-/* line 11, inside-gsu/sass/_nav.scss */
+/* line 19, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a {
   padding: 15px;
 }
-/* line 12, inside-gsu/sass/_nav.scss */
-nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, nav.main-nav ul.dropdown-menu a:focus, nav.main-nav ul.dropdown-menu a:visited {
-  background: #101010;
+/* line 20, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a:hover {
+  border-bottom: 2px solid #cc0000;
 }
 
-/* line 18, inside-gsu/sass/_nav.scss */
+/* line 26, inside-gsu/sass/_nav.scss */
 #sidebar1 {
   padding: 1em 0;
 }
-/* line 19, inside-gsu/sass/_nav.scss */
+/* line 27, inside-gsu/sass/_nav.scss */
 #sidebar1 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 20, inside-gsu/sass/_nav.scss */
+/* line 28, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li {
   clear: both;
 }
-/* line 21, inside-gsu/sass/_nav.scss */
+/* line 29, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a {
   background: #d0e5f6;
   color: #315aad;
@@ -7927,21 +7965,21 @@ nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, n
   text-decoration: none;
   width: 100%;
 }
-/* line 22, inside-gsu/sass/_nav.scss */
+/* line 30, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a:hover {
   background: #b1d2ef;
 }
-/* line 24, inside-gsu/sass/_nav.scss */
+/* line 32, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li ul li a {
   padding-left: 15%;
 }
-/* line 28, inside-gsu/sass/_nav.scss */
+/* line 36, inside-gsu/sass/_nav.scss */
 #sidebar1 .current-menu-item > a {
   color: #fefefe;
   text-transform: uppercase;
   background-color: #555555;
 }
-/* line 29, inside-gsu/sass/_nav.scss */
+/* line 37, inside-gsu/sass/_nav.scss */
 #sidebar1 .current-menu-item > a:hover {
   background-color: #2f2f2f;
 }
@@ -7956,6 +7994,19 @@ nav.main-nav ul.dropdown-menu a:hover, nav.main-nav ul.dropdown-menu a:active, n
 /* line 4, inside-gsu/sass/_home.scss */
 .page-template-page-homepage-php .hero-unit img {
   width: 100%;
+}
+
+/* line 4, inside-gsu/sass/_variables.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #cc0000;
+}
+
+/* line 8, inside-gsu/sass/_variables.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #fefefe;
+  background-color: transparent;
 }
 
 @media (max-width: 768px) {
