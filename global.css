@@ -7973,11 +7973,15 @@ nav.main-nav ul.dropdown-menu a:hover {
   margin: 0;
   padding: 0;
 }
-/* line 37, inside-gsu/sass/_nav.scss */
+/* line 38, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.menu-item-has-children ul {
+  display: none;
+}
+/* line 40, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li {
   clear: both;
 }
-/* line 38, inside-gsu/sass/_nav.scss */
+/* line 41, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a {
   background: #cecebf;
   color: #363636;
@@ -7988,33 +7992,50 @@ nav.main-nav ul.dropdown-menu a:hover {
   text-decoration: none;
   width: 100%;
 }
-/* line 39, inside-gsu/sass/_nav.scss */
+/* line 42, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a:hover {
   background: #adad94;
 }
-/* line 43, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item a {
+/* line 46, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item ul, #sidebar1 ul li.current-menu-parent ul, #sidebar1 ul li.current-menu-ancestor ul {
+  display: block;
+}
+/* line 47, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor a {
   background: #d0e5f6;
   color: #315aad;
   margin: 0;
 }
-/* line 44, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item a:hover {
+/* line 48, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor a:hover {
   background: #b1d2ef;
 }
-/* line 46, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item > a {
-  color: #fefefe;
+/* line 50, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a {
   text-transform: uppercase;
-  background-color: #555555;
 }
-/* line 47, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item > a:hover {
-  background: #555555;
-}
-/* line 49, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item ul li a {
+/* line 52, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item ul li a, #sidebar1 ul li.current-menu-parent ul li a, #sidebar1 ul li.current-menu-ancestor ul li a {
   padding-left: 10%;
+}
+/* line 55, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a {
+  background-color: #555555;
+  color: #fefefe;
+}
+/* line 56, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item > a:hover, #sidebar1 ul li.current-menu-parent > a:hover, #sidebar1 ul li.current-menu-ancestor > a:hover {
+  background: #555555 !important;
+}
+/* line 60, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a {
+  background: #d0e5f6;
+  color: #315aad;
+  margin: 0;
+}
+/* line 61, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a:hover {
+  background: #b1d2ef !important;
 }
 
 /* line 3, inside-gsu/sass/_home.scss */
@@ -8078,6 +8099,11 @@ body.admin-bar {
   line-height: inherit;
   color: inherit;
   white-space: nowrap;
+}
+
+/* line 20, inside-gsu/sass/global.scss */
+img {
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {

@@ -34,19 +34,34 @@ nav.main-nav, {
 // left-side nav
 #sidebar1 { padding:1em 0;
 	ul { list-style:none; margin:0; padding:0;
+		li.menu-item-has-children {
+			ul { display:none; }
+		}
 		li { clear:both;
 			a { background:$nav-alt; color:$grey-nav; float:left; line-height:$nav-line-height; margin:1px 0; padding:5px 0 5px 10px; text-decoration:none; width:100%; 
 				&:hover { background:$nav-alt-hover; }
 			}
 		}
-		li.current-menu-item {
+		li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
+		ul { display:block; }
 		 a { background:$blue-lighter; color:$blue-nav; margin:0;
 				&:hover { background:$blue-lighter-hover; }
 			}
-		> a { color:$white; text-transform:uppercase; background-color:$grey-nav-active; 
-			&:hover { background:$grey-nav-active; }
+		> a { text-transform:uppercase; 
 		}
 			ul li a { padding-left:10%; }
+		}
+		> li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
+			> a { background-color:$grey-nav-active; color:$white; 
+				&:hover { background:$grey-nav-active !important; }
+			}
+			ul {
+				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
+				  a { background:$blue-lighter; color:$blue-nav; margin:0;
+						&:hover { background:$blue-lighter-hover !important; }
+					}
+				}
+			}
 		}
 	}
 }
