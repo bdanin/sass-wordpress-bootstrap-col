@@ -1,14 +1,18 @@
 // navigation styles
 nav.main-nav {
-	.nav > li {  
-		float:left;
-		&:hover, &:active, &:focus, &:visited { 
+	a { font-size:14px; }
+	.nav { 
+		> li {  
+			float:left;
+			&:hover, &:active, &:focus, &:visited { 
+				@include border-radius(4px);
 				@include box-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 				background:$red-accent; 
-			}	
-		ul { border-top: 5px solid $red-accent; margin-top:-5px; }
-		&:hover { > .dropdown-menu {display:block !important;} }
-		> a { font-size:14px; font-weight:700;
+				}	
+			ul { border-top: 5px solid $red-accent; margin-top:-5px; }
+			&:hover { > .dropdown-menu {display:block !important;} }
+			> a { font-weight:700;
+			}
 		}
 	}
 	a.brand { @include hide-text; @include background(image-url('logo_gsulaw.png')); background-repeat:no-repeat; background-position:20px 0; background-size:250px; padding:66px 151px; position:relative; top:52px; }
@@ -16,8 +20,8 @@ nav.main-nav {
 		a { color:$white; }
 	}
 	ul.dropdown-menu { @include border-radius(4px);
-		background:$grey-nav; border:none; border-radius:0; margin:0; padding:20px;
-		a { line-height:18px; margin:0 0 24px;
+		background:$grey-nav; border:none; border-radius:0; margin:0; padding:1em 1.5em 0;
+		a { border-bottom:2px solid $grey-nav; clear:both; float:left; line-height:18px; margin:0 0 1em;
 			&:hover { border-bottom:2px solid $red-accent; } 
 		}
 	}
