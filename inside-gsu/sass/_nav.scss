@@ -1,9 +1,8 @@
 // navigation styles
-nav.main-nav {
+nav.main-nav, {
 	a { font-size:14px; }
 	.nav { 
-		> li {  
-			float:left;
+		> li { float:left;
 			&:hover, &:active, &:focus, &:visited { 
 				@include border-radius(4px);
 				@include box-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
@@ -26,20 +25,28 @@ nav.main-nav {
 		}
 	}
 }
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	@include border-radius(4px);
+	@include box-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+	background:$red-accent; 
+}
 
 // left-side nav
 #sidebar1 { padding:1em 0;
 	ul { list-style:none; margin:0; padding:0;
 		li { clear:both;
-			a { background:$blue-lighter; color:$blue-nav; float:left; line-height:$nav-line-height; margin:1px 0; padding:5px 0 5px 10px; text-decoration:none; width:100%;
+			a { background:$nav-alt; color:$grey-nav; float:left; line-height:$nav-line-height; margin:1px 0; padding:5px 0 5px 10px; text-decoration:none; width:100%; 
+				&:hover { background:$nav-alt-hover; }
+			}
+		}
+		li.current-menu-item {
+		 a { background:$blue-lighter; color:$blue-nav; margin:0;
 				&:hover { background:$blue-lighter-hover; }
 			}
-			ul li a { padding-left:15%; }
-		}
-	}
-	.current-menu-item {
 		> a { color:$white; text-transform:uppercase; background-color:$grey-nav-active; 
-			&:hover { background-color:darken($grey-nav-active, 15%); }
+			&:hover { background:$grey-nav-active; }
+		}
+			ul li a { padding-left:10%; }
 		}
 	}
 }
