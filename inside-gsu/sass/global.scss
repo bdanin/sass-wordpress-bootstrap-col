@@ -17,7 +17,7 @@
 
 @import "variables";
 // custom global styles:
-img { max-width:100%; }
+img { height:auto; max-width:100%; }
 
 // responsive overrides:
 @import "responsive768.scss";

@@ -8103,6 +8103,7 @@ body.admin-bar {
 
 /* line 20, inside-gsu/sass/global.scss */
 img {
+  height: auto;
   max-width: 100%;
 }
 
