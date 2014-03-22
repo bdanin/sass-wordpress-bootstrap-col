@@ -24,6 +24,7 @@ nav.main-nav, {
 			&:hover { border-bottom:2px solid $red-accent; } 
 		}
 	}
+	.caret { display:none; }
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	@include border-radius(4px);
@@ -34,6 +35,7 @@ nav.main-nav, {
 // left-side nav
 #sidebar1 { padding:1em 0;
 	ul { list-style:none; margin:0; padding:0;
+		li.menu-item, ul.sub-menu { display:none; }
 		li.menu-item-has-children {
 			ul { display:none; }
 		}
@@ -42,8 +44,9 @@ nav.main-nav, {
 				&:hover { background:$nav-alt-hover; }
 			}
 		}
-		li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
-		ul { display:block; }
+		li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor, li.current_page_parent { display:block;
+		> ul.sub-menu { display:block; }
+		li.menu-item { display:block; }
 		 a { background:$blue-lighter; color:$blue-nav; margin:0;
 				&:hover { background:$blue-lighter-hover; }
 			}
@@ -57,8 +60,12 @@ nav.main-nav, {
 			}
 			ul {
 				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
-				  a { background:$blue-lighter-hover; color:$blue-nav; margin:0; text-transform:none;
+				  a { background:$blue-lighter; color:$blue-nav; margin:0; text-transform:none;
 						&:hover { background:$blue-lighter-hover !important; }
+					}
+					> a { background:$blue-lighter-hover; }
+					ul.sub-menu li a { background:$nav-alt; color:$grey-nav; padding-left:15%;
+						&:hover { background:$nav-alt-hover !important; }
 					}
 				}
 			}
