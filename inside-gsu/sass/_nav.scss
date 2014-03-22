@@ -57,7 +57,7 @@ nav.main-nav, {
 			}
 			ul {
 				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
-				  a { background:$blue-lighter; color:$blue-nav; margin:0;
+				  a { background:$blue-lighter-hover; color:$blue-nav; margin:0; text-transform:none;
 						&:hover { background:$blue-lighter-hover !important; }
 					}
 				}
