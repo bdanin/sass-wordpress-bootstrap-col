@@ -13,6 +13,7 @@ nav.main-nav, {
 			> a { font-weight:700;
 			}
 		}
+		li.current_page_parent, > li.current_page_item { border-bottom:solid 5px $red-accent; }
 	}
 	a.brand { @include hide-text; @include background(image-url('logo_gsulaw.png')); background-repeat:no-repeat; background-position:20px 0; background-size:250px; padding:66px 151px; position:relative; top:52px; }
 	.navigation-main-nav { margin-left:350px; position:absolute; bottom:0;
