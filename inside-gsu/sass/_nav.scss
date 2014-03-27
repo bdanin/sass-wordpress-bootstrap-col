@@ -47,25 +47,25 @@ nav.main-nav, {
 		li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor, li.current_page_parent { display:block;
 		> ul.sub-menu { display:block; }
 		li.menu-item { display:block; }
-		 a { background:$blue-lighter; color:$blue-nav; margin:0;
-				&:hover { background:$blue-lighter-hover; }
+		 a { background:$nav-alt; color:$grey-nav; margin:0;
+				&:hover { background:$nav-alt-hover; }
 			}
 		> a { text-transform:uppercase; 
 		}
 			ul li a { padding-left:10%; }
 		}
 		> li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
-			> a { background-color:$grey-nav-active; color:$white; 
-				&:hover { background:$grey-nav-active !important; }
+			> a { background-color:$grey-nav; color:$white; 
+				&:hover { background:$grey-nav !important; }
 			}
 			ul {
-				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
-				  a { background:$blue-lighter; color:$blue-nav; margin:0; text-transform:none;
-						&:hover { background:$blue-lighter-hover !important; }
+				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor, > li.current-menu-item { @include clearfix; background:$blue-lighter-hover !important; 
+				  a { @include background(image-url('menu-chevron-down.png') !important); background-position:center right !important; background-repeat:no-repeat !important; color:$blue-nav; margin:0; text-transform:none;
+						&:hover { text-decoration:underline; }
 					}
-					> a { background:$blue-lighter-hover; }
-					ul.sub-menu li a { background:$nav-alt; color:$grey-nav; padding-left:15%;
-						&:hover { background:$nav-alt-hover !important; }
+					> a { background:$nav-alt; }
+					ul.sub-menu li a { background:$blue-lighter !important; color:$blue-nav; padding-left:15%;
+						&:hover { background:$blue-lighter-hover !important; text-decoration:none; }
 					}
 				}
 			}
