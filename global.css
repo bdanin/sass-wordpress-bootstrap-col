@@ -7866,15 +7866,24 @@ footer.footer-wrapper #rss {
   background: url('inside-gsu/img/social/icon_rss_22.png?1396038087');
 }
 
-/* line 3, inside-gsu/sass/_nav.scss */
+/* line 21, ../../../../../.rvm/gems/ruby-2.1.0@bs3x/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+nav.main-nav li:before, nav.main-nav li:after {
+  content: " ";
+  display: table;
+}
+/* line 25, ../../../../../.rvm/gems/ruby-2.1.0@bs3x/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
+nav.main-nav li:after {
+  clear: both;
+}
+/* line 4, inside-gsu/sass/_nav.scss */
 nav.main-nav a {
   font-size: 14px;
 }
-/* line 5, inside-gsu/sass/_nav.scss */
+/* line 6, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li {
   float: left;
 }
-/* line 6, inside-gsu/sass/_nav.scss */
+/* line 7, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li:hover, nav.main-nav .nav > li:active, nav.main-nav .nav > li:focus, nav.main-nav .nav > li:visited {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -7886,24 +7895,38 @@ nav.main-nav .nav > li:hover, nav.main-nav .nav > li:active, nav.main-nav .nav >
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
   background: #cc0000;
 }
-/* line 11, inside-gsu/sass/_nav.scss */
+/* line 12, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li ul {
   border-top: 5px solid #cc0000;
   margin-top: -5px;
 }
-/* line 12, inside-gsu/sass/_nav.scss */
+/* line 13, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li ul li {
+  width: 230px;
+}
+/* line 17, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li:hover > .dropdown-menu {
   display: block !important;
+  position: absolute;
+  width: 250px;
 }
-/* line 13, inside-gsu/sass/_nav.scss */
+/* line 20, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li ul li:hover > .dropdown-menu {
+  border-top: none;
+  display: block !important;
+  position: absolute;
+  left: 225px;
+  top: 0;
+}
+/* line 21, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li > a {
   font-weight: 700;
 }
-/* line 16, inside-gsu/sass/_nav.scss */
+/* line 26, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav li.current_page_parent, nav.main-nav .nav > li.current_page_item {
   border-bottom: solid 5px #cc0000;
 }
-/* line 18, inside-gsu/sass/_nav.scss */
+/* line 28, inside-gsu/sass/_nav.scss */
 nav.main-nav a.brand {
   font: 0/0 a;
   color: transparent;
@@ -7918,17 +7941,17 @@ nav.main-nav a.brand {
   position: relative;
   top: 52px;
 }
-/* line 19, inside-gsu/sass/_nav.scss */
+/* line 29, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav {
   margin-left: 350px;
   position: absolute;
   bottom: 0;
 }
-/* line 20, inside-gsu/sass/_nav.scss */
+/* line 30, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav a {
   color: #fefefe;
 }
-/* line 22, inside-gsu/sass/_nav.scss */
+/* line 32, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -7941,7 +7964,7 @@ nav.main-nav ul.dropdown-menu {
   margin: 0;
   padding: 1em 1.5em 0;
 }
-/* line 24, inside-gsu/sass/_nav.scss */
+/* line 34, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a {
   border-bottom: 2px solid #555555;
   clear: both;
@@ -7949,16 +7972,16 @@ nav.main-nav ul.dropdown-menu a {
   line-height: 18px;
   margin: 0 0 1em;
 }
-/* line 25, inside-gsu/sass/_nav.scss */
+/* line 35, inside-gsu/sass/_nav.scss */
 nav.main-nav ul.dropdown-menu a:hover {
   border-bottom: 2px solid #cc0000;
 }
-/* line 28, inside-gsu/sass/_nav.scss */
+/* line 38, inside-gsu/sass/_nav.scss */
 nav.main-nav .caret {
   display: none;
 }
 
-/* line 30, inside-gsu/sass/_nav.scss */
+/* line 40, inside-gsu/sass/_nav.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -7971,29 +7994,29 @@ nav.main-nav .caret {
   background: #cc0000;
 }
 
-/* line 37, inside-gsu/sass/_nav.scss */
+/* line 47, inside-gsu/sass/_nav.scss */
 #sidebar1 {
   padding: 1em 0;
 }
-/* line 38, inside-gsu/sass/_nav.scss */
+/* line 48, inside-gsu/sass/_nav.scss */
 #sidebar1 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 39, inside-gsu/sass/_nav.scss */
+/* line 49, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.menu-item, #sidebar1 ul ul.sub-menu {
   display: none;
 }
-/* line 41, inside-gsu/sass/_nav.scss */
+/* line 51, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.menu-item-has-children ul {
   display: none;
 }
-/* line 43, inside-gsu/sass/_nav.scss */
+/* line 53, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li {
   clear: both;
 }
-/* line 44, inside-gsu/sass/_nav.scss */
+/* line 54, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a {
   background: #cecebf;
   color: #555555;
@@ -8004,50 +8027,50 @@ nav.main-nav .caret {
   text-decoration: none;
   width: 100%;
 }
-/* line 45, inside-gsu/sass/_nav.scss */
+/* line 55, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a:hover {
   background: #adad94;
 }
-/* line 48, inside-gsu/sass/_nav.scss */
+/* line 58, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item, #sidebar1 ul li.current-menu-parent, #sidebar1 ul li.current-menu-ancestor, #sidebar1 ul li.current_page_parent {
   display: block;
 }
-/* line 49, inside-gsu/sass/_nav.scss */
+/* line 59, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item > ul.sub-menu, #sidebar1 ul li.current-menu-parent > ul.sub-menu, #sidebar1 ul li.current-menu-ancestor > ul.sub-menu, #sidebar1 ul li.current_page_parent > ul.sub-menu {
   display: block;
 }
-/* line 50, inside-gsu/sass/_nav.scss */
+/* line 60, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item li.menu-item, #sidebar1 ul li.current-menu-parent li.menu-item, #sidebar1 ul li.current-menu-ancestor li.menu-item, #sidebar1 ul li.current_page_parent li.menu-item {
   display: block;
 }
-/* line 51, inside-gsu/sass/_nav.scss */
+/* line 61, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor a, #sidebar1 ul li.current_page_parent a {
   background: #cecebf;
   color: #555555;
   margin: 0;
 }
-/* line 52, inside-gsu/sass/_nav.scss */
+/* line 62, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current_page_parent a:hover {
   background: #adad94;
 }
-/* line 54, inside-gsu/sass/_nav.scss */
+/* line 64, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a, #sidebar1 ul li.current_page_parent > a {
   text-transform: uppercase;
 }
-/* line 56, inside-gsu/sass/_nav.scss */
+/* line 66, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item ul li a, #sidebar1 ul li.current-menu-parent ul li a, #sidebar1 ul li.current-menu-ancestor ul li a, #sidebar1 ul li.current_page_parent ul li a {
   padding-left: 10%;
 }
-/* line 59, inside-gsu/sass/_nav.scss */
+/* line 69, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a {
   background-color: #555555;
   color: #fefefe;
 }
-/* line 60, inside-gsu/sass/_nav.scss */
+/* line 70, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item > a:hover, #sidebar1 ul li.current-menu-parent > a:hover, #sidebar1 ul li.current-menu-ancestor > a:hover {
   background: #555555 !important;
 }
-/* line 63, inside-gsu/sass/_nav.scss */
+/* line 73, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item, #sidebar1 ul li.current-menu-parent ul li.current-menu-item, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item {
   background: #b1d2ef !important;
 }
@@ -8060,7 +8083,7 @@ nav.main-nav .caret {
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor:after, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item:after {
   clear: both;
 }
-/* line 64, inside-gsu/sass/_nav.scss */
+/* line 74, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a {
   background: url('inside-gsu/img/menu-chevron-down.png?1392252923') !important;
   background-position: center right !important;
@@ -8069,21 +8092,21 @@ nav.main-nav .caret {
   margin: 0;
   text-transform: none;
 }
-/* line 65, inside-gsu/sass/_nav.scss */
+/* line 75, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a:hover {
   text-decoration: underline;
 }
-/* line 67, inside-gsu/sass/_nav.scss */
+/* line 77, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor > a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item > a {
   background: #cecebf;
 }
-/* line 68, inside-gsu/sass/_nav.scss */
+/* line 78, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item ul.sub-menu li a {
   background: #d0e5f6 !important;
   color: #315aad;
   padding-left: 15%;
 }
-/* line 69, inside-gsu/sass/_nav.scss */
+/* line 79, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item ul.sub-menu li a:hover {
   background: #b1d2ef !important;
   text-decoration: none;
