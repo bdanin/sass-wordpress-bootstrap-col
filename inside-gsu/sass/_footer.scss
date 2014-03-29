@@ -6,9 +6,9 @@ footer.footer-wrapper {	background:$blue-main; padding: 20px; position:relative;
 		a { display:block; float:left; height:22px; margin-right:12px; width:22px; }
 	}
 	#footcopy { float:left; }
-	#fb { background: url(http://law.gsu.edu/images/template/icon_facebook_22.png); }
-	#twitter { background: url(http://law.gsu.edu/images/template/icon_twitter_22.png); }
-	#linkedin { background: url(http://law.gsu.edu/images/template/icon_linkedin_22.png); }
-	#itunes { background: url(http://law.gsu.edu/images/template/icon_apple_22.png); }
-	#rss { background: url(http://law.gsu.edu/images/template/icon_rss_22.png); }
+	#fb { @include background (image-url('social/icon_facebook_22.png')); }
+	#twitter { @include background (image-url('social/icon_twitter_22.png')); }
+	#linkedin { @include background (image-url('social/icon_linkedin_22.png')); }
+	#itunes { @include background (image-url('social/icon_apple_22.png')); }
+	#rss { @include background (image-url('social/icon_rss_22.png')); }
 }
