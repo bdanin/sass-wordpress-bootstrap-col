@@ -3,7 +3,7 @@ body {
 	@include background-image(linear-gradient($start-bg-blue, $stop-bg-blue)); 
 	padding-top:0; 
 }
-.main-wrapper, .hero-unit, .main-body-wrap { background:$white; margin:auto; max-width:$dsk-width; min-height:$dsk-height; padding:0.5em 1.5em; }
+.main-wrapper, .hero-unit, .main-body-wrap, div#content { background:$white; margin:auto; max-width:$dsk-width; min-height:$dsk-height; padding:0.5em 1.5em; }
 .header-wrap, .footer-wrap-inner { margin:auto; max-width:$dsk-width; }
 .container-fluid { max-width:100%; padding-left:0; padding-right:0; }
 .page-header { border:none; margin:0; padding-top:1em; }

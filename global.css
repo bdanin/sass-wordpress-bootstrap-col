@@ -7746,7 +7746,7 @@ body {
 }
 
 /* line 6, inside-gsu/sass/_body.scss */
-.main-wrapper, .hero-unit, .main-body-wrap {
+.main-wrapper, .hero-unit, .main-body-wrap, div#content {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
@@ -7785,7 +7785,7 @@ body {
 }
 
 /* line 6, inside-gsu/sass/_body.scss */
-.main-wrapper, .hero-unit, .main-body-wrap {
+.main-wrapper, .hero-unit, .main-body-wrap, div#content {
   background: #fefefe;
   margin: auto;
   max-width: 960px;
