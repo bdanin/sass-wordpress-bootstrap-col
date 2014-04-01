@@ -8,4 +8,14 @@
 		#socialicons { margin:0; }
 	}
 	#sidebar1 { display:none; }
+	nav.main-nav, {
+		.btn-activate { background:rgba(250,250,250,0.8); display:block; float:right; margin:10px; padding:0 4px 4px; width:40px;
+			.icon-bar { border-bottom:3px solid $grey-nav; clear:both; float:left; margin:1px 0; padding:2px 15px; }
+		}
+		.nav > li { clear:both; }
+
+	// toggle menu
+	.navigation-main-nav { display:none; }
+	.navigation-main-nav.open-active { background:$grey-nav; clear:both; display:block; float:right; position:relative; top:0; width:100%; }
+	}
 }

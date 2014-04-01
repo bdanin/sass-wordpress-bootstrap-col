@@ -36,6 +36,7 @@ nav.main-nav, {
 		}
 	}
 	.caret { display:none; }
+	.btn-activate { display:none; }
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	@include border-radius(4px);

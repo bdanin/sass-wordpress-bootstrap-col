@@ -49,13 +49,13 @@
 							<?php }
 							if(of_get_option('site_name','1')) bloginfo('name'); ?></a>
 					
-					<!-- <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<a class="btn btn-navbar btn-activate">
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
-					</a> -->
+					</a>
 					
-					<div class="nav-collapse navigation-main-nav">
+					<div class="menu-collapse navigation-main-nav">
 						<?php bones_main_nav(); // Adjust using Menus in Wordpress Admin ?>
 					</div>
 
