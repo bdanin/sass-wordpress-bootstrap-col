@@ -8191,4 +8191,9 @@ img {
   footer.footer-wrapper #socialicons {
     margin: 0;
   }
+
+  /* line 10, inside-gsu/sass/_responsive768.scss */
+  #sidebar1 {
+    display: none;
+  }
 }
