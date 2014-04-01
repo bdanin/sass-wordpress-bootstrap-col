@@ -35,6 +35,7 @@
 
 		<!-- typeahead plugin - if top nav search bar enabled -->
 		<?php require_once('library/typeahead.php'); ?>
+    <script type="text/javascript" charset="utf-8" src="<?php echo get_stylesheet_directory_uri(); ?>/inside-gsu/js/insidelaw.js"></script>
 				
 	</head>
 	
