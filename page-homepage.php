@@ -5,7 +5,22 @@ Template Name: Homepage
 ?>
 
 <?php get_header(); ?>
+		
+		<header>
+
+			<?php 
+				$post_thumbnail_id = get_post_thumbnail_id();
+				$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
+			?>
+		
+			<div class="hero-unit">
+				<img src="<?php echo $featured_src[0]; ?>" />
+				<?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
 			
+			</div>
+
+		</header>
+
 			<div id="content" class="clearfix row-fluid">
 			
 				<div id="main" class="span12 clearfix" role="main">
@@ -71,21 +86,6 @@ Template Name: Homepage
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
-					
-						<header>
-
-							<?php 
-								$post_thumbnail_id = get_post_thumbnail_id();
-								$featured_src = wp_get_attachment_image_src( $post_thumbnail_id, 'wpbs-featured-home' );
-							?>
-						
-							<div class="hero-unit">
-								<img src="<?php echo $featured_src[0]; ?>" />
-								<?php echo get_post_meta($post->ID, 'custom_tagline' , true);?>
-							
-							</div>
-
-						</header>
 						
 						<section class="row-fluid post_content main-body-wrap">
 						
