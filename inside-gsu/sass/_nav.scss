@@ -3,23 +3,27 @@ nav.main-nav, {
 	li { @include clearfix; }
 	a { font-size:14px; }
 	.nav { 
-		> li { float:left;
+		> li { float:left; font-weight: 700;
 			&:hover, &:active, &:focus, &:visited { 
 				@include border-radius(4px);
 				@include box-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-				background:$red-accent; 
+				background:$red-accent;
 				}	
 			ul { border-top: 5px solid $red-accent; margin-top:-5px; 
 				li { width:($sub-nav-width - 20px); }
 			}
 			
 			// 2nd level dropdown
-			&:hover { > .dropdown-menu { display:block !important; position:absolute; width:$sub-nav-width; } }
+			&:hover { 
+				> .dropdown-menu { display:block !important; position:absolute; width:$sub-nav-width; 
+					// make 3rd level hover border-bottom white
+					.dropdown-menu li a:hover { border-bottom: 1px solid $white; padding-bottom: 1px; }
+				}
+			}
 
 			// 3rd level dropdown
-			ul li:hover > .dropdown-menu { border-top:none; display:block !important; position:absolute; left:($sub-nav-width - 25px); top:0; }
-			> a { font-weight:700;
-			}
+			ul li:hover > .dropdown-menu { border-top:none; display:block !important; font-weight: 400; position:absolute; left:($sub-nav-width - 25px); top:0; }
+			> a { font-weight:700; }
 		}
 
 		// border-bottom for current tree
