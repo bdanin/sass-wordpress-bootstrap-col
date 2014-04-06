@@ -12,7 +12,7 @@
 		
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 				
-		<meta content="width=device-width; initial-scale=0.95; minimum-scale=0.8; maximum-scale=1.8" name="viewport" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				
 		<!-- media-queries.js (fallback) -->
 		<!--[if lt IE 9]>
