@@ -55,7 +55,7 @@ nav.main-nav, {
 		li.menu-item-has-children {
 			ul { display:none; }
 		}
-		li { clear:both;
+		li {  border-bottom:1px solid $white; border-top:1px solid $white; clear:both;
 			a { background:$nav-alt; color:$grey-nav; float:left; line-height:$nav-line-height; margin:1px 0; padding:5px 0 5px 10px; text-decoration:none; width:100%; 
 				&:hover { background:$nav-alt-hover; }
 			}
@@ -68,7 +68,7 @@ nav.main-nav, {
 			}
 		> a { text-transform:uppercase; 
 		}
-			ul li a { padding-left:10%; }
+			ul li a { padding-left:5%; }
 		}
 		> li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor {
 			> a { background-color:$grey-nav; color:$white; 
@@ -80,7 +80,7 @@ nav.main-nav, {
 						&:hover { text-decoration:underline; }
 					}
 					> a { background:$nav-alt; }
-					ul.sub-menu li a { background:$blue-lighter !important; color:$blue-nav; padding-left:15%;
+					ul.sub-menu li a { background:$blue-lighter !important; color:$blue-nav; padding-left:10%;
 						&:hover { background:$blue-lighter-hover !important; text-decoration:none; }
 					}
 				}
