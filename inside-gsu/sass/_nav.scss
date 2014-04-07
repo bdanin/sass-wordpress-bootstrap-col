@@ -16,6 +16,7 @@ nav.main-nav, {
 			// 2nd level dropdown
 			&:hover { 
 				> .dropdown-menu { display:block !important; position:absolute; width:$sub-nav-width; 
+					
 					// make 3rd level hover border-bottom white
 					.dropdown-menu li a:hover { border-bottom: 1px solid $white; padding-bottom: 1px; }
 				}
@@ -28,8 +29,10 @@ nav.main-nav, {
 
 		// border-bottom for current tree
 		li.current_page_ancestor, > li.current_page_item { border-bottom:solid 5px $red-accent; 
+			
 			// 2nd level active state
 			.current_page_ancestor { border:none; text-transform:uppercase; 
+				
 				// 3rd level reset
 				.dropdown-menu { text-transform:none; }
 			}
@@ -94,4 +97,10 @@ nav.main-nav, {
 			}
 		}
 	}
+}
+
+// mobile nav css help
+.menu-global > li {
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;        
 }

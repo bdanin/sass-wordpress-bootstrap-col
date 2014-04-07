@@ -3332,88 +3332,91 @@ nav.main-nav .nav > li ul { border-top: 5px solid #cc0000; margin-top: -5px; }
 nav.main-nav .nav > li ul li { width: 230px; }
 /* line 18, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li:hover > .dropdown-menu { display: block !important; position: absolute; width: 250px; }
-/* line 20, inside-gsu/sass/_nav.scss */
+/* line 21, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li:hover > .dropdown-menu .dropdown-menu li a:hover { border-bottom: 1px solid #fefefe; padding-bottom: 1px; }
-/* line 25, inside-gsu/sass/_nav.scss */
-nav.main-nav .nav > li ul li:hover > .dropdown-menu { border-top: none; display: block !important; font-weight: 400; position: absolute; left: 225px; top: 0; }
 /* line 26, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav > li ul li:hover > .dropdown-menu { border-top: none; display: block !important; font-weight: 400; position: absolute; left: 225px; top: 0; }
+/* line 27, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav > li > a { font-weight: 700; }
-/* line 30, inside-gsu/sass/_nav.scss */
+/* line 31, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav li.current_page_ancestor, nav.main-nav .nav > li.current_page_item { border-bottom: solid 5px #cc0000; }
-/* line 32, inside-gsu/sass/_nav.scss */
-nav.main-nav .nav li.current_page_ancestor .current_page_ancestor, nav.main-nav .nav > li.current_page_item .current_page_ancestor { border: none; text-transform: uppercase; }
 /* line 34, inside-gsu/sass/_nav.scss */
+nav.main-nav .nav li.current_page_ancestor .current_page_ancestor, nav.main-nav .nav > li.current_page_item .current_page_ancestor { border: none; text-transform: uppercase; }
+/* line 37, inside-gsu/sass/_nav.scss */
 nav.main-nav .nav li.current_page_ancestor .current_page_ancestor .dropdown-menu, nav.main-nav .nav > li.current_page_item .current_page_ancestor .dropdown-menu { text-transform: none; }
-/* line 38, inside-gsu/sass/_nav.scss */
+/* line 41, inside-gsu/sass/_nav.scss */
 nav.main-nav a.brand { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; background: url('inside-gsu/img/logo_gsulaw.png?1380911706'); background-repeat: no-repeat; background-position: 20px 0; background-size: 250px; padding: 66px 151px; position: relative; top: 52px; }
-/* line 39, inside-gsu/sass/_nav.scss */
-nav.main-nav .navigation-main-nav { margin-left: 350px; position: absolute; bottom: 0; }
-/* line 40, inside-gsu/sass/_nav.scss */
-nav.main-nav .navigation-main-nav a { color: #fefefe; }
 /* line 42, inside-gsu/sass/_nav.scss */
-nav.main-nav ul.dropdown-menu { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; background: #555555; border: none; border-radius: 0; margin: 0; padding: 1em 1.5em 0; }
-/* line 44, inside-gsu/sass/_nav.scss */
-nav.main-nav ul.dropdown-menu a { border-bottom: 2px solid #555555; clear: both; float: left; line-height: 18px; margin: 0 0 1em; }
+nav.main-nav .navigation-main-nav { margin-left: 350px; position: absolute; bottom: 0; }
+/* line 43, inside-gsu/sass/_nav.scss */
+nav.main-nav .navigation-main-nav a { color: #fefefe; }
 /* line 45, inside-gsu/sass/_nav.scss */
-nav.main-nav ul.dropdown-menu a:hover { border-bottom: 2px solid #cc0000; }
+nav.main-nav ul.dropdown-menu { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; background: #555555; border: none; border-radius: 0; margin: 0; padding: 1em 1.5em 0; }
+/* line 47, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a { border-bottom: 2px solid #555555; clear: both; float: left; line-height: 18px; margin: 0 0 1em; }
 /* line 48, inside-gsu/sass/_nav.scss */
+nav.main-nav ul.dropdown-menu a:hover { border-bottom: 2px solid #cc0000; }
+/* line 51, inside-gsu/sass/_nav.scss */
 nav.main-nav .caret { display: none; }
-/* line 49, inside-gsu/sass/_nav.scss */
+/* line 52, inside-gsu/sass/_nav.scss */
 nav.main-nav .btn-activate { display: none; }
 
-/* line 51, inside-gsu/sass/_nav.scss */
+/* line 54, inside-gsu/sass/_nav.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7); background: #cc0000; }
 
-/* line 58, inside-gsu/sass/_nav.scss */
+/* line 61, inside-gsu/sass/_nav.scss */
 #sidebar1 { padding: 1em 0; }
-/* line 59, inside-gsu/sass/_nav.scss */
-#sidebar1 ul { list-style: none; margin: 0; padding: 0; }
-/* line 60, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.menu-item, #sidebar1 ul ul.sub-menu { display: none; }
 /* line 62, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.menu-item-has-children ul { display: none; }
-/* line 64, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li { border-bottom: 1px solid #fefefe; border-top: 1px solid #fefefe; clear: both; }
+#sidebar1 ul { list-style: none; margin: 0; padding: 0; }
+/* line 63, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.menu-item, #sidebar1 ul ul.sub-menu { display: none; }
 /* line 65, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.menu-item-has-children ul { display: none; }
+/* line 67, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li { border-bottom: 1px solid #fefefe; border-top: 1px solid #fefefe; clear: both; }
+/* line 68, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li a { background: #cecebf; color: #555555; float: left; line-height: 1.65em; margin: 1px 0; padding: 5px 0 5px 10px; text-decoration: none; width: 100%; }
-/* line 66, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li a:hover { background: #a79f8e; }
 /* line 69, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item, #sidebar1 ul li.current-menu-parent, #sidebar1 ul li.current-menu-ancestor, #sidebar1 ul li.current_page_parent { display: block; }
-/* line 70, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item > ul.sub-menu, #sidebar1 ul li.current-menu-parent > ul.sub-menu, #sidebar1 ul li.current-menu-ancestor > ul.sub-menu, #sidebar1 ul li.current_page_parent > ul.sub-menu { display: block; }
-/* line 71, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item li.menu-item, #sidebar1 ul li.current-menu-parent li.menu-item, #sidebar1 ul li.current-menu-ancestor li.menu-item, #sidebar1 ul li.current_page_parent li.menu-item { display: block; }
+#sidebar1 ul li a:hover { background: #a79f8e; }
 /* line 72, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor a, #sidebar1 ul li.current_page_parent a { background: #cecebf; color: #555555; margin: 0; }
+#sidebar1 ul li.current-menu-item, #sidebar1 ul li.current-menu-parent, #sidebar1 ul li.current-menu-ancestor, #sidebar1 ul li.current_page_parent { display: block; }
 /* line 73, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current_page_parent a:hover { background: #a79f8e; }
+#sidebar1 ul li.current-menu-item > ul.sub-menu, #sidebar1 ul li.current-menu-parent > ul.sub-menu, #sidebar1 ul li.current-menu-ancestor > ul.sub-menu, #sidebar1 ul li.current_page_parent > ul.sub-menu { display: block; }
+/* line 74, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item li.menu-item, #sidebar1 ul li.current-menu-parent li.menu-item, #sidebar1 ul li.current-menu-ancestor li.menu-item, #sidebar1 ul li.current_page_parent li.menu-item { display: block; }
 /* line 75, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor a, #sidebar1 ul li.current_page_parent a { background: #cecebf; color: #555555; margin: 0; }
+/* line 76, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current_page_parent a:hover { background: #a79f8e; }
+/* line 78, inside-gsu/sass/_nav.scss */
 #sidebar1 ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a, #sidebar1 ul li.current_page_parent > a { text-transform: uppercase; }
-/* line 77, inside-gsu/sass/_nav.scss */
-#sidebar1 ul li.current-menu-item ul li a, #sidebar1 ul li.current-menu-parent ul li a, #sidebar1 ul li.current-menu-ancestor ul li a, #sidebar1 ul li.current_page_parent ul li a { padding-left: 5%; }
 /* line 80, inside-gsu/sass/_nav.scss */
+#sidebar1 ul li.current-menu-item ul li a, #sidebar1 ul li.current-menu-parent ul li a, #sidebar1 ul li.current-menu-ancestor ul li a, #sidebar1 ul li.current_page_parent ul li a { padding-left: 5%; }
+/* line 83, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor > a { background-color: #555555; color: #fefefe; }
-/* line 81, inside-gsu/sass/_nav.scss */
-#sidebar1 ul > li.current-menu-item > a:hover, #sidebar1 ul li.current-menu-parent > a:hover, #sidebar1 ul li.current-menu-ancestor > a:hover { background: #555555 !important; }
 /* line 84, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item > a:hover, #sidebar1 ul li.current-menu-parent > a:hover, #sidebar1 ul li.current-menu-ancestor > a:hover { background: #555555 !important; }
+/* line 87, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item, #sidebar1 ul li.current-menu-parent ul li.current-menu-item, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item { background: #b1d2ef !important; }
 /* line 21, ../../../../../.rvm/gems/ruby-2.1.0@bs3x/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item:before, #sidebar1 ul > li.current-menu-item ul li.current-menu-item:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent:before, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor:before, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor:after, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item:before, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-item:before, #sidebar1 ul li.current-menu-parent ul li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent:before, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor:before, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item:before, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item:before, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent:before, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor:before, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item:before, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item:after { content: " "; display: table; }
 /* line 25, ../../../../../.rvm/gems/ruby-2.1.0@bs3x/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent:after, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor:after, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-item:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent:after, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor:after, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item:after { clear: both; }
-/* line 85, inside-gsu/sass/_nav.scss */
-#sidebar1 ul > li.current-menu-item ul li.current-menu-item a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a { background: url('inside-gsu/img/menu-chevron-down.png?1392252923') !important; background-position: center right !important; background-repeat: no-repeat !important; color: #315aad; margin: 0; text-transform: none; }
-/* line 86, inside-gsu/sass/_nav.scss */
-#sidebar1 ul > li.current-menu-item ul li.current-menu-item a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a:hover { text-decoration: underline; }
 /* line 88, inside-gsu/sass/_nav.scss */
-#sidebar1 ul > li.current-menu-item ul li.current-menu-item > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor > a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item > a { background: #cecebf; }
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a { background: url('inside-gsu/img/menu-chevron-down.png?1392252923') !important; background-position: center right !important; background-repeat: no-repeat !important; color: #315aad; margin: 0; text-transform: none; }
 /* line 89, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item a:hover { text-decoration: underline; }
+/* line 91, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent > a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor > a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent > a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor > a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item > a { background: #cecebf; }
+/* line 92, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor ul.sub-menu li a, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item ul.sub-menu li a { background: #d0e5f6 !important; color: #315aad; padding-left: 10%; }
-/* line 90, inside-gsu/sass/_nav.scss */
-#sidebar1 ul > li.current-menu-item ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item ul.sub-menu li a:hover { background: #b1d2ef !important; text-decoration: none; }
 /* line 93, inside-gsu/sass/_nav.scss */
+#sidebar1 ul > li.current-menu-item ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul > li.current-menu-item ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-parent ul > li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-item ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-parent ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul li.current-menu-ancestor ul.sub-menu li a:hover, #sidebar1 ul li.current-menu-ancestor ul > li.current-menu-item ul.sub-menu li a:hover { background: #b1d2ef !important; text-decoration: none; }
+/* line 96, inside-gsu/sass/_nav.scss */
 #sidebar1 ul > li.current-menu-item ul li.current_page_item > a, #sidebar1 ul li.current-menu-parent ul li.current_page_item > a, #sidebar1 ul li.current-menu-ancestor ul li.current_page_item > a { text-transform: uppercase; }
+
+/* line 103, inside-gsu/sass/_nav.scss */
+.menu-global > li { -webkit-user-select: none; -webkit-touch-callout: none; }
 
 /* line 3, inside-gsu/sass/_home.scss */
 .page-template-page-homepage-php .hero-unit { margin: 0; padding: 0; max-width: 100%; width: 100%; }
@@ -3757,7 +3760,7 @@ body.admin-bar { margin-top: 12px; }
 /* line 5, inside-gsu/sass/_wp-nav.scss */
 #wpadminbar { background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #313131), color-stop(100%, #1f2026)); background-image: -webkit-linear-gradient(#313131, #1f2026); background-image: -moz-linear-gradient(#313131, #1f2026); background-image: -o-linear-gradient(#313131, #1f2026); background-image: linear-gradient(#313131, #1f2026); height: 44px; }
 /* line 8, inside-gsu/sass/_wp-nav.scss */
-#wpadminbar .quicklinks { margin: 5px auto 0; width: 940px; }
+#wpadminbar .quicklinks { margin: 5px auto 0; max-width: 940px; }
 
 /* bootstrap overrides */
 /* line 5, inside-gsu/sass/_variables.scss */
@@ -3779,16 +3782,18 @@ img { height: auto; max-width: 100%; }
   /* line 10, inside-gsu/sass/_responsive768.scss */
   #sidebar1 { display: none; }
   /* line 12, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: rgba(250, 250, 250, 0.8); display: block; float: right; margin: 10px; padding: 0 5px 4px; position: absolute; right: 0; top: 0; width: 40px; z-index: 9999; }
+  nav.main-nav .btn-activate { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; display: block; float: right; margin: 10px; padding: 0 5px 4px; position: absolute; right: 0; top: 0; width: 40px; z-index: 9999; }
   /* line 13, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate .icon-bar { border-bottom: 3px solid #555555; clear: both; float: left; margin: 1px 0; padding: 2px 15px; }
+  nav.main-nav .btn-activate .icon-bar { border-bottom: 3px solid #fefefe; clear: both; float: left; margin: 1px 0; padding: 2px 15px; }
   /* line 15, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .btn-activate.activated .icon-bar { border-bottom: 3px solid #bebebe; }
+  /* line 16, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .nav > li { clear: both; }
-  /* line 18, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .navigation-main-nav { display: none; }
   /* line 19, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .navigation-main-nav.open-active { background: #555555; clear: both; display: block; float: right; margin-top: -25px; position: relative; top: 0; width: 100%; }
+  nav.main-nav .navigation-main-nav { display: none; }
   /* line 20, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .navigation-main-nav.open-active { background: #555555; clear: both; display: block; float: right; margin-top: -33px; position: relative; top: 0; width: 100%; }
+  /* line 21, inside-gsu/sass/_responsive768.scss */
   nav.main-nav a.brand { padding: 45px 115px; top: 30px; }
-  /* line 26, inside-gsu/sass/_responsive768.scss */
-  .logged-in nav.main-nav .btn-activate { top: -60px; } }
+  /* line 27, inside-gsu/sass/_responsive768.scss */
+  .logged-in nav.main-nav .btn-activate { right: 40px; top: -57px; } }
