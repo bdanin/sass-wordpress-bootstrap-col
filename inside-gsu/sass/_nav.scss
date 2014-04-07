@@ -27,7 +27,13 @@ nav.main-nav, {
 		}
 
 		// border-bottom for current tree
-		li.current_page_parent, > li.current_page_item { border-bottom:solid 5px $red-accent; }
+		li.current_page_ancestor, > li.current_page_item { border-bottom:solid 5px $red-accent; 
+			// 2nd level active state
+			.current_page_ancestor { border:none; text-transform:uppercase; 
+				// 3rd level reset
+				.dropdown-menu { text-transform:none; }
+			}
+		}
 	}
 	a.brand { @include hide-text; @include background(image-url('logo_gsulaw.png')); background-repeat:no-repeat; background-position:20px 0; background-size:250px; padding:66px 151px; position:relative; top:52px; }
 	.navigation-main-nav { margin-left:350px; position:absolute; bottom:0;
@@ -84,6 +90,7 @@ nav.main-nav, {
 						&:hover { background:$blue-lighter-hover !important; text-decoration:none; }
 					}
 				}
+				li.current_page_item > a { text-transform: uppercase; }
 			}
 		}
 	}
