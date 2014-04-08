@@ -23,9 +23,10 @@ nav.main-nav, {
 			}
 
 			// 3rd level dropdown
-			ul li:hover > .dropdown-menu { border-top:none; display:block !important; font-weight: 400; position:absolute; left:($sub-nav-width - 25px); top:0; }
+			ul li:hover > .dropdown-menu { border-top:none; display:block !important; font-weight:400; position:absolute; left:($sub-nav-width - 25px); top:0; }
 			> a { font-weight:700; }
 		}
+		> li:last-child ul li:hover > .dropdown-menu { left:-350px; width:350px; }
 
 		// border-bottom for current tree
 		li.current_page_ancestor, > li.current_page_item { border-bottom:solid 5px $red-accent; 
