@@ -3784,15 +3784,13 @@ img { height: auto; max-width: 100%; }
   /* line 10, inside-gsu/sass/_responsive768.scss */
   #sidebar1 { display: none; }
   /* line 15, inside-gsu/sass/_responsive768.scss */
-  .logged-in nav.main-nav .btn-activate { right: 40px; top: -55px; }
+  .logged-in nav.main-nav .btn-activate { position: fixed; top: 2px; right: 40px; }
   /* line 18, inside-gsu/sass/_responsive768.scss */
   html #wpadminbar { height: 51px; }
   /* line 24, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .btn-activate { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; display: block; float: right; margin: 10px; padding: 0 5px 4px; position: absolute; right: 0; top: 0; width: 40px; z-index: 9999; }
   /* line 25, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .btn-activate .icon-bar { border-bottom: 3px solid #fefefe; clear: both; float: left; margin: 1px 0; padding: 2px 15px; }
-  /* line 27, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate.activated { position: fixed; top: 2px; }
   /* line 28, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .btn-activate.activated .icon-bar { border-bottom: 3px solid #bebebe; }
   /* line 30, inside-gsu/sass/_responsive768.scss */

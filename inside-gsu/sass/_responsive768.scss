@@ -12,7 +12,7 @@
 	// logged-in styles
 	.logged-in {
 		nav.main-nav {
-			.btn-activate { right:40px; top:-55px; }
+			.btn-activate { position:fixed; top:2px; right:40px; }
 		}
 	}
 	html #wpadminbar { height:51px; }
@@ -24,7 +24,7 @@
 		.btn-activate { @include border-radius(6px); @include border-radius(0); background:transparent; display:block; float:right; margin:10px; padding:0 5px 4px; position:absolute; right:0; top:0; width:40px; z-index:9999;
 			.icon-bar { border-bottom:3px solid $white; clear:both; float:left; margin:1px 0; padding:2px 15px; }
 		}
-		.btn-activate.activated { position:fixed; top:2px;
+		.btn-activate.activated {
 			.icon-bar { border-bottom:3px solid darken($white, 25%); }
 		}
 		.nav > li { clear:both; }
