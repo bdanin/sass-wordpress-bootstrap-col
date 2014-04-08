@@ -3808,7 +3808,7 @@ img { height: auto; max-width: 100%; }
   /* line 44, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .nav > li a:hover, nav.main-nav .nav > li a:focus { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; }
   /* line 48, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .nav > li > .dropdown-menu { display: block !important; position: relative; }
+  nav.main-nav .nav > li > .dropdown-menu { display: block !important; margin-left: 5%; position: relative; }
   /* line 50, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .nav > li:hover, nav.main-nav .nav > li:focus { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; background: transparent; }
   /* line 53, inside-gsu/sass/_responsive768.scss */
@@ -3820,4 +3820,12 @@ img { height: auto; max-width: 100%; }
   /* line 63, inside-gsu/sass/_responsive768.scss */
   nav.main-nav .nav > li ul li:hover > .dropdown-menu { font-weight: 300; left: 0; position: relative; width: 100%; }
   /* line 70, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .nav > li.current_page_ancestor, nav.main-nav .nav > li.current_page_item { border: none; } }
+  nav.main-nav .nav li.current_page_ancestor, nav.main-nav .nav > li.current_page_item { border: none; }
+  /* line 71, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav ul li a:hover { border-bottom: 2px solid #555555 !important; }
+  /* line 72, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav ul li ul li a:hover { border-bottom: 1px solid #555555 !important; }
+  /* line 73, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav li.current_page_item > a { border-bottom: 1px solid #cc0000 !important; }
+  /* line 74, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav li.current_page_item > a:hover { border-bottom: 1px solid #cc0000 !important; } }

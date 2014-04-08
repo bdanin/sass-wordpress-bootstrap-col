@@ -45,7 +45,7 @@
 				}
 
 				// 2nd tier dropdown
-				> .dropdown-menu { display:block !important; position:relative; }
+				> .dropdown-menu { display:block !important; margin-left:5%; position:relative; }
 
 				&:hover,&:focus { @include border-radius(0); @include box-shadow(none); background:transparent; }
 				// reset hover
@@ -67,8 +67,11 @@
 			}
 
 			// reset for active parent underline
-			> li.current_page_ancestor, > li.current_page_item { border:none; 
-			// 	a { border-bottom:1px solid $red-accent; }
+			li.current_page_ancestor, > li.current_page_item { border:none; }
+			ul li a:hover { border-bottom:2px solid $grey-nav !important;  }
+			ul li ul li a:hover { border-bottom:1px solid $grey-nav !important;  }
+			li.current_page_item > a { border-bottom:1px solid $red-accent !important; 
+				&:hover { border-bottom:1px solid $red-accent !important; }
 			}
 		}
 	}
