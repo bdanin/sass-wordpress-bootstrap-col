@@ -8,23 +8,68 @@
 		#socialicons { margin:0; }
 	}
 	#sidebar1 { display:none; }
-	nav.main-nav, {
-		.btn-activate { @include border-radius(6px); @include border-radius(0); background:transparent; display:block; float:right; margin:10px; padding:0 5px 4px; position:absolute; right:0; top:0; width:40px; z-index:9999;
-			.icon-bar { border-bottom:3px solid $white; clear:both; float:left; margin:1px 0; padding:2px 15px; }
-		}
-		.btn-activate.activated .icon-bar { border-bottom:3px solid darken($white, 25%); }
-		.nav > li { clear:both; }
-
-	// toggle menu
-	.navigation-main-nav { display:none; }
-	.navigation-main-nav.open-active { background:$grey-nav; clear:both; display:block; float:right; margin-top: -33px; position:relative; top:0; width:100%; }
-	a.brand { padding:45px 115px; top: 30px; }
-	}
 
 	// logged-in styles
 	.logged-in {
 		nav.main-nav {
-			.btn-activate { right:40px; top:-57px; }
+			.btn-activate { right:40px; top:-55px; }
+		}
+	}
+	html #wpadminbar { height:51px; }
+
+	// mobile nav
+	nav.main-nav {
+
+		// button styles
+		.btn-activate { @include border-radius(6px); @include border-radius(0); background:transparent; display:block; float:right; margin:10px; padding:0 5px 4px; position:absolute; right:0; top:0; width:40px; z-index:9999;
+			.icon-bar { border-bottom:3px solid $white; clear:both; float:left; margin:1px 0; padding:2px 15px; }
+		}
+		.btn-activate.activated { position:fixed; top:2px;
+			.icon-bar { border-bottom:3px solid darken($white, 25%); }
+		}
+		.nav > li { clear:both; }
+
+		// toggle menu
+		.navigation-main-nav { display:none; }
+		.navigation-main-nav.open-active { background:$grey-nav; clear:both; display:block; float:right; margin-top: -27px; position:relative; top:0; width:100%; }
+		a.brand { padding:45px 115px; top: 30px; }
+
+		.nav {
+			> li {
+
+				// first level links
+				> a { font-size:120%; }
+
+				a {
+					&:hover,&:focus { @include border-radius(0); background:transparent; } 
+				}
+
+				// 2nd tier dropdown
+				> .dropdown-menu { display:block !important; position:relative; }
+
+				&:hover,&:focus { @include border-radius(0); @include box-shadow(none); background:transparent; }
+				// reset hover
+				&:hover {
+					> .dropdown-menu { position:relative; width:100%; }
+				}
+
+				ul { @include box-shadow(none); border:none; font-weight:400; margin-top:0; padding-top:0; z-index:400;
+					li {
+
+						// 3rd tier dropdown
+						> .dropdown-menu { display:block !important; font-weight:300; position:relative; width:100%; }
+						// reset hover
+						&:hover {
+							> .dropdown-menu { font-weight:300; left:0; position:relative; width:100%; }
+						}
+					}
+				}
+			}
+
+			// reset for active parent underline
+			> li.current_page_ancestor, > li.current_page_item { border:none; 
+			// 	a { border-bottom:1px solid $red-accent; }
+			}
 		}
 	}
 }

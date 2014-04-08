@@ -3257,7 +3257,7 @@ h1, h2, h3, h4, h5, h6 { line-height: 1.2; }
 #content article h1 { font-size: 31.5px; color: #103e94; margin: 10px 0; }
 
 /* line 2, inside-gsu/sass/_header.scss */
-header.main-header { height: 100px; position: relative; }
+header.main-header { height: 100px; margin: auto; max-width: 960px; position: relative; }
 /* line 3, inside-gsu/sass/_header.scss */
 header.main-header .navbar-fixed-top { margin-top: 35px; }
 /* line 4, inside-gsu/sass/_header.scss */
@@ -3765,13 +3765,13 @@ body.admin-bar { margin-top: 12px; }
 #wpadminbar .quicklinks { margin: 5px auto 0; max-width: 940px; }
 
 /* bootstrap overrides */
-/* line 5, inside-gsu/sass/_variables.scss */
+/* line 6, inside-gsu/sass/_variables.scss */
 .nav > li > a:hover, .nav > li > a:focus { -webkit-border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; text-decoration: none; background-color: #cc0000; }
 
-/* line 10, inside-gsu/sass/_variables.scss */
+/* line 11, inside-gsu/sass/_variables.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { text-decoration: none; color: #fefefe; background-color: transparent; }
 
-/* line 15, inside-gsu/sass/_variables.scss */
+/* line 16, inside-gsu/sass/_variables.scss */
 .dropdown-menu > li > a { display: block; padding: 0; clear: both; font-weight: inherit; line-height: inherit; color: inherit; white-space: nowrap; }
 
 /* line 21, inside-gsu/sass/global.scss */
@@ -3783,19 +3783,41 @@ img { height: auto; max-width: 100%; }
   footer.footer-wrapper #socialicons { margin: 0; }
   /* line 10, inside-gsu/sass/_responsive768.scss */
   #sidebar1 { display: none; }
-  /* line 12, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; display: block; float: right; margin: 10px; padding: 0 5px 4px; position: absolute; right: 0; top: 0; width: 40px; z-index: 9999; }
-  /* line 13, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate .icon-bar { border-bottom: 3px solid #fefefe; clear: both; float: left; margin: 1px 0; padding: 2px 15px; }
   /* line 15, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .btn-activate.activated .icon-bar { border-bottom: 3px solid #bebebe; }
-  /* line 16, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .nav > li { clear: both; }
-  /* line 19, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .navigation-main-nav { display: none; }
-  /* line 20, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav .navigation-main-nav.open-active { background: #555555; clear: both; display: block; float: right; margin-top: -33px; position: relative; top: 0; width: 100%; }
-  /* line 21, inside-gsu/sass/_responsive768.scss */
-  nav.main-nav a.brand { padding: 45px 115px; top: 30px; }
+  .logged-in nav.main-nav .btn-activate { right: 40px; top: -55px; }
+  /* line 18, inside-gsu/sass/_responsive768.scss */
+  html #wpadminbar { height: 51px; }
+  /* line 24, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .btn-activate { -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; display: block; float: right; margin: 10px; padding: 0 5px 4px; position: absolute; right: 0; top: 0; width: 40px; z-index: 9999; }
+  /* line 25, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .btn-activate .icon-bar { border-bottom: 3px solid #fefefe; clear: both; float: left; margin: 1px 0; padding: 2px 15px; }
   /* line 27, inside-gsu/sass/_responsive768.scss */
-  .logged-in nav.main-nav .btn-activate { right: 40px; top: -57px; } }
+  nav.main-nav .btn-activate.activated { position: fixed; top: 2px; }
+  /* line 28, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .btn-activate.activated .icon-bar { border-bottom: 3px solid #bebebe; }
+  /* line 30, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li { clear: both; }
+  /* line 33, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .navigation-main-nav { display: none; }
+  /* line 34, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .navigation-main-nav.open-active { background: #555555; clear: both; display: block; float: right; margin-top: -27px; position: relative; top: 0; width: 100%; }
+  /* line 35, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav a.brand { padding: 45px 115px; top: 30px; }
+  /* line 41, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li > a { font-size: 120%; }
+  /* line 44, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li a:hover, nav.main-nav .nav > li a:focus { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; background: transparent; }
+  /* line 48, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li > .dropdown-menu { display: block !important; position: relative; }
+  /* line 50, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li:hover, nav.main-nav .nav > li:focus { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; background: transparent; }
+  /* line 53, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li:hover > .dropdown-menu { position: relative; width: 100%; }
+  /* line 56, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li ul { -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; border: none; font-weight: 400; margin-top: 0; padding-top: 0; z-index: 400; }
+  /* line 60, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li ul li > .dropdown-menu { display: block !important; font-weight: 300; position: relative; width: 100%; }
+  /* line 63, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li ul li:hover > .dropdown-menu { font-weight: 300; left: 0; position: relative; width: 100%; }
+  /* line 70, inside-gsu/sass/_responsive768.scss */
+  nav.main-nav .nav > li.current_page_ancestor, nav.main-nav .nav > li.current_page_item { border: none; } }

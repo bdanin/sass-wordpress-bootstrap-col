@@ -2,6 +2,7 @@
 // Override Bootstrap variables here (defaults copied from bootstrap-sass version 3.0.3.0):
 // bootstrap specific variable. set to false if not using ruby + asset pipeline / compass.
 
+// bootstrap style overrides
 .nav > li > a:hover, .nav > li > a:focus {
   @include border-radius(4px);
   text-decoration: none;
