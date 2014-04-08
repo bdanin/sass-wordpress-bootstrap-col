@@ -3349,7 +3349,7 @@ nav.main-nav .nav li.current_page_ancestor .current_page_ancestor .dropdown-menu
 /* line 42, inside-gsu/sass/_nav.scss */
 nav.main-nav a.brand { font: 0/0 a; color: transparent; text-shadow: none; background-color: transparent; border: 0; background: url('inside-gsu/img/logo_gsulaw.png?1380911706'); background-repeat: no-repeat; background-position: 20px 0; background-size: 250px; padding: 66px 151px; position: relative; top: 52px; }
 /* line 43, inside-gsu/sass/_nav.scss */
-nav.main-nav .navigation-main-nav { margin-left: 350px; position: absolute; bottom: 0; }
+nav.main-nav .navigation-main-nav { position: absolute; bottom: 0; right: 0; }
 /* line 44, inside-gsu/sass/_nav.scss */
 nav.main-nav .navigation-main-nav a { color: #fefefe; }
 /* line 46, inside-gsu/sass/_nav.scss */
