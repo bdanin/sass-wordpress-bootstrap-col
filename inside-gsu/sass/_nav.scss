@@ -95,7 +95,7 @@ nav.main-nav, {
 						&:hover { background:$blue-lighter-hover !important; text-decoration:none; }
 					}
 				}
-				li.current_page_item > a { text-transform: uppercase; }
+				// li.current_page_item > a { text-transform: uppercase; }  // 2nd tier uppercase
 			}
 		}
 	}
