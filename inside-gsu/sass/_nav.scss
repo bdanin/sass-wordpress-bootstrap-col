@@ -86,7 +86,8 @@ nav.main-nav, {
 			}
 			ul {
 				li.current-menu-item, li.current-menu-parent, li.current-menu-ancestor, > li.current-menu-item { @include clearfix; background:$blue-lighter-hover !important; 
-				  a { @include background(image-url('menu-chevron-down.png') !important); background-position:center right !important; background-repeat:no-repeat !important; color:$blue-nav; margin:0; text-transform:none;
+				  a { color:$blue-nav; margin:0; text-transform:none;
+				  	@include background(image-url('') !important); background-position:center right !important; background-repeat:no-repeat !important; 
 						&:hover { text-decoration:underline; }
 					}
 					> a { background:$nav-alt; }
